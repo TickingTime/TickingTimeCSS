@@ -1,0 +1,50 @@
+@import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
+@import url("https://netox005.github.io/Dubtrack/css/videosmall.css"); /* Small video */
+@import url("https://netox005.github.io/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
+@import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
+@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* NB3 animations */
+@import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders and progress bars */
+@import url("https://frosolf.github.io/mixercore.css"); /* Chillout Mixer core theme */
+@import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Better recognizable Room BOTs */
+@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* Pack of animations */
+#chat .chat-container .chat-messages .chat-main li.current-chat-user .activity-row .text .username { color: green !important; }
+/* Video next to chat */
+@media screen and (min-width: 72em) {
+    #main-room .left_section {
+        left: initial;
+        right: 450px;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+    }    #main-room .left_section #main_player { border-radius: 0 0 0 1rem; }
+}
+
+/* Room size fix */
+@media screen and (min-width: 72em) { #main-room .main-room-wrapper { min-height: 0; margin-bottom: 0; } }
+
+/* Skip animation */
+@keyframes hidding-skip {
+    0% { right: 0; }
+    75%, 100% { right: -100%; visibility: hidden; }
+}
+@media screen and (min-width: 72em) {
+    #main_player .player_header { overflow-x: hidden; }
+    #main_player .player_header span.skip-el[style="display: none;"] {
+        animation: hidding-skip .15s linear forwards;
+        display: block !important;
+    }
+}
+
+/* Info tab fixes */
+#room-info-display .room-info-display-wrapper h2 { margin-top: 1rem; margin-bottom: 2rem; font-size: 1.5rem; }
+#room-info-display .room-info-display-wrapper h2 span,
+#room-info-display .room-info-display-wrapper h2 span i {
+    font-size: 1rem;
+}
+
+/* Mod tab fixes */
+#mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers { top: 0; }
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active { width: 50%; float: left; }
+
+/* Miscellaneous */
+#main_player .player_header span.display-queue::before { content: initial; }
