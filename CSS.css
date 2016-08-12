@@ -35,6 +35,9 @@
         display: block !important;
     }
 }
+div {
+    opacity: 0.5;
+}
 
 /* Info tab fixes */
 #room-info-display .room-info-display-wrapper h2 { margin-top: 1rem; margin-bottom: 2rem; font-size: 1.5rem; }
