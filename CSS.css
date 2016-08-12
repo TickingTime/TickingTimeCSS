@@ -17,6 +17,9 @@
         right: 450px;
         padding-right: 0 !important;
         margin-left: 0 !important;
+        div {
+    opacity: 0.7;
+}
     }    #main-room .left_section #main_player { border-radius: 0 0 0 1rem; }
 
 /* Room size fix */
