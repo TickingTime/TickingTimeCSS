@@ -32,9 +32,6 @@
     #main_player .player_header span.skip-el[style="display: none;"] {
         animation: hidding-skip .15s linear forwards;
         display: block !important;
-         div {
-    opacity: 0.7;
-}
     }
 
 
