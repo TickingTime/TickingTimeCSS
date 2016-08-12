@@ -18,7 +18,6 @@
         padding-right: 0 !important;
         margin-left: 0 !important;
     }    #main-room .left_section #main_player { border-radius: 0 0 0 1rem; }
-}
 
 /* Room size fix */
 @media screen and (min-width: 72em) { #main-room .main-room-wrapper { min-height: 0; margin-bottom: 0; } }
