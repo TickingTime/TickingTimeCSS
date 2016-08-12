@@ -8,6 +8,7 @@
 @import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Better recognizable Room BOTs */
 @import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* Pack of animations */
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
+@import url("https://netox005.github.io/Dubtrack/css/fixesnetux.css"); /* Netux Fixes */
 #chat .chat-container .chat-messages .chat-main li.current-chat-user .activity-row .text .username { color: green !important; }
 /* Video next to chat */
 @media screen and (min-width: 72em) {
