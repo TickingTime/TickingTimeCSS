@@ -50,3 +50,7 @@
 
 /* Miscellaneous */
 #main_player .player_header span.display-queue::before { content: initial; }
+
+/* Import fixes */
+#chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row::before { top: 19px; left: 12px; }
+#chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: 0.01 !important; }
