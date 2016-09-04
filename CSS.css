@@ -9,7 +9,7 @@
 @import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* Pack of animations */
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
 @import url("https://netox005.github.io/Dubtrack/css/fixesnetux.css"); /* Netux Fixes */
-#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* tickingtime */ { color: #78AB46 !important; text-shadow: 0px 0px 2px rgba(,0,0,.5); }
+#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* tickingtime */ { color: #8CDD81 !important; text-shadow: 0px 0px 2px rgba(,0,0,.5); }
 
 /* Video next to chat */
 @media screen and (min-width: 72em) {
