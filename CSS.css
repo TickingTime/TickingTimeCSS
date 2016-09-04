@@ -12,8 +12,6 @@
 #chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* tickingtime */ { color: #8CDD81 !important; text-shadow: 0px 0px 2px rgba(,0,0,.5); }
 #browser .content-videos{
   background: /* Top layer */ url(http://i.imgur.com/0sxhBUn.png),
-/* Fore image */
- /* Back image, position, size, repeat */
 }
 /* Video next to chat */
 @media screen and (min-width: 72em) {
