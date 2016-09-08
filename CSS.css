@@ -9,13 +9,15 @@
 @import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Better recognizable Room BOTs */
 @import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* Pack of animations */
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
-
+569d6f9289d6541900324f23
 /* Special people colors */
 #chat .chat-container ul.chat-main li.user-56b928b1a3e55abb04b33dae .stream-item-content .activity-row .username /* theofficialturbo */ { color: #00E5EE !important;  }
 #chat .chat-container ul.chat-main li.user-5795491ce32d226a0020c30e .stream-item-content .activity-row .username /* XZeroX */ { color: #DC143C !important;  }
 #chat .chat-container ul.chat-main li.user-56f7633a956749c200c62101 .stream-item-content .activity-row .username /* FunnyGuy77 */ { color: #4DBD33 !important;  }
 #chat .chat-container ul.chat-main li.user-560b18f88b4f900300cc6c06 .stream-item-content .activity-row .username /* slyfox */ { color: #76EE00 !important;  }
 #chat .chat-container ul.chat-main li.user-570476b1fa0b0d5a00d2d1ec .stream-item-content .activity-row .username /* sister */ { color: #D43D1A !important;  }
+#chat .chat-container ul.chat-main li.user-569d6f9289d6541900324f23 .stream-item-content .activity-row .username /* vipture */ { color: ##551A8B !important;  }
+
 /*Video next to chat */
 @media screen and (min-width: 72em) {
     #main-room .left_section {
