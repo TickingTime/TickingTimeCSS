@@ -11,8 +11,8 @@
 @import url("https://netox005.github.io/Dubtrack/css/fixesnetux.css"); /* Netux Fixes */
 
 /* Special people colors */
-#chat .chat-container ul.chat-main li.user-5795491ce32d226a0020c30e .stream-item-content .activity-row .username /* theofficialturbo */ { color: #00E5EE !important;  }
-
+#chat .chat-container ul.chat-main li.user-56b928b1a3e55abb04b33dae.stream-item-content .activity-row .username /* theofficialturbo */ { color: #00E5EE !important;  }
+#chat .chat-container ul.chat-main li.user-5795491ce32d226a0020c30e.stream-item-content .activity-row .username /* XZeroX */ { color: #DC143C !important;  }
 /* Video next to chat */
 @media screen and (min-width: 72em) {
     #main-room .left_section {
