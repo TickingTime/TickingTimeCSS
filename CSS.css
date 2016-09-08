@@ -59,14 +59,12 @@
 
 /* TickingTime Chat Colour and stuff */
 
+
 #chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* TickingTime */ {
     color: #8CDD81 !important;
     text-shadow: 0px 0px 1px rgba(0,0,0,.5);
 }
-#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username .user-role, /* TickingTime */
-#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username .user-role-icon /* TickingTime */ {
-    color: #8CDD81 !important;
-}
+
 #chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username:before /* TickingTime */ {
     content: "\f137";
     font-family: "foundation-icons";
@@ -80,15 +78,3 @@
     text-decoration: inherit;
     margin-right: 5px;
 }
-
-ul.avatar-list .user-TickingTime:after,
-.user-TickingTime, .user-TickingTime p.username {
-    color: #8CDD81 !important;
-}
-#main_avatar_room #main-user-list-room #avatar-list .user-TickingTime p.username, 
-#main_avatar_room #main-user-list-room #avatar-list .user-TickingTime p.username:after,
-#main_avatar_room #main-user-list-room #avatar-list .user-TickingTime .user-role
-{
-    color: #8CDD81 !important;
-}
-
