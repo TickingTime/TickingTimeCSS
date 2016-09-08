@@ -159,9 +159,6 @@ html.dubx img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :taxib
     font-style: normal;
 }
 
-/* Netux username */
-#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username > * {
-    display: none !important;
 }
 #chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .username::before {
     content: "Å‹etux";
