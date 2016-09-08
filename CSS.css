@@ -80,7 +80,6 @@
     text-decoration: inherit;
     margin-right: 5px;
 }
-/* Netux Fixes (without grey name)  */
 
 /* User banned fix */
 #chat .pusher-chat-widget-input p {
@@ -161,10 +160,10 @@ html.dubx img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :taxib
 
 }
 #chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .username::before {
-    content: "Å‹etux";
+    content: "ŋetux";
     font-weight: 700;
     line-height: 1.2;
-    color: #878c8e;
+    color: #FF7722;
 }
 #chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .text p.deleted:first-of-type:before { content: ""; }
 #chat .chat-main li.user-560b4a33d9057a0300cc2fa0.current-chat-user .activity-row .text p:first-of-type:before { color: gold; }
