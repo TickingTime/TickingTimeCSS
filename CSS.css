@@ -16,7 +16,7 @@
 #chat .chat-container ul.chat-main li.user-56f7633a956749c200c62101 .stream-item-content .activity-row .username /* FunnyGuy77 */ { color: #4DBD33 !important;  }
 #chat .chat-container ul.chat-main li.user-560b18f88b4f900300cc6c06 .stream-item-content .activity-row .username /* slyfox */ { color: #76EE00 !important;  }
 #chat .chat-container ul.chat-main li.user-570476b1fa0b0d5a00d2d1ec .stream-item-content .activity-row .username /* sister */ { color: #D43D1A !important;  }
-#chat .chat-container ul.chat-main li.user-569d6f9289d6541900324f23 .stream-item-content .activity-row .username /* vipture */ { color: #9B30FF !important;  }
+#chat .chat-container ul.chat-main li.user-569d6f9289d6541900324f23 .stream-item-content .activity-row .username /* vipture */ { color:#EFD13B !important;  }
 
 /*Video next to chat */
 @media screen and (min-width: 72em) {
