@@ -10,7 +10,7 @@
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
 @import url("https://netox005.github.io/Dubtrack/css/fixesnetux.css"); /* Netux Fixes */
 /* Special people colors */
-#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* tickingtime */ { color: #8CDD81 !important;  }
+
 #chat .chat-container ul.chat-main li.user-56b928b1a3e55abb04b33dae .stream-item-content .activity-row .username /* theofficialturbo */ { color: #00E5EE !important;  }
 
 /* Video next to chat */
@@ -55,3 +55,40 @@
 
 /* Import fixes */
 #chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: 0.01 !important; }
+
+
+/* TickingTime Chat Colour and stuff */
+
+#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* TickingTime */ {
+    color: #8CDD81 !important;
+    text-shadow: 0px 0px 1px rgba(0,0,0,.5);
+}
+#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username .user-role, /* TickingTime */
+#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username .user-role-icon /* TickingTime */ {
+    color: #8CDD81 !important;
+}
+#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username:before /* TickingTime */ {
+    content: "\f137";
+    font-family: "foundation-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;
+    margin-right: 5px;
+}
+
+ul.avatar-list .user-TickingTime:after,
+.user-TickingTime, .user-TickingTime p.username {
+    color: #8CDD81 !important;
+}
+#main_avatar_room #main-user-list-room #avatar-list .user-TickingTime p.username, 
+#main_avatar_room #main-user-list-room #avatar-list .user-TickingTime p.username:after,
+#main_avatar_room #main-user-list-room #avatar-list .user-TickingTime .user-role
+{
+    color: #8CDD81 !important;
+}
+
