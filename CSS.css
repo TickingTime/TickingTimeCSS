@@ -13,7 +13,7 @@
 /* Special people colors */
 #chat .chat-container ul.chat-main li.user-56b928b1a3e55abb04b33dae .stream-item-content .activity-row .username /* theofficialturbo */ { color: #00E5EE !important;  }
 #chat .chat-container ul.chat-main li.user-5795491ce32d226a0020c30e .stream-item-content .activity-row .username /* XZeroX */ { color: #DC143C !important;  }
-
+#chat .chat-container ul.chat-main li.user-56f7633a956749c200c62101 .stream-item-content .activity-row .username /* FunnyGuy77 */ { color: #4DBD33 !important;  }
 /* Video next to chat */
 @media screen and (min-width: 72em) {
     #main-room .left_section {
