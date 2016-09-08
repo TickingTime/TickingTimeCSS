@@ -18,6 +18,13 @@
 #chat .chat-container ul.chat-main li.user-570476b1fa0b0d5a00d2d1ec .stream-item-content .activity-row .username /* sister */ { color: #D43D1A !important;  }
 #chat .chat-container ul.chat-main li.user-569d6f9289d6541900324f23 .stream-item-content .activity-row .username /* vipture */ { color:#EFD13B !important;  }
 #chat .chat-container ul.chat-main li.user-56c057eaa23bb71d0001ac91 .stream-item-content .activity-row .username /* tinyandkawaii */ { color:#FF9900 !important;  }
+
+
+
+
+
+
+
 /*Video next to chat */
 @media screen and (min-width: 72em) {
     #main-room .left_section {
