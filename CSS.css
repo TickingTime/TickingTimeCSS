@@ -105,16 +105,4 @@
     font-weight: 700;
     line-height: 1.2;
     color: #FF7E00;
-    
-/* TickingTime Profile pic header */
-.header-center-logo a {
-	margin-top: 3.8px !important;
-	width: 3rem !important;
-	height: 3rem !important;
-	content: url('https://res.cloudinary.com/hhberclba/image/upload/c_fill,f_auto,fl_lossy,h_200,q_75,w_200/v1468528606/user/56d47266a3af139b0357f646.gif');
-}
-
-.header-center-logo a img {
-	width:0;
-	height:0;
 }
