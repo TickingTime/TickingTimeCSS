@@ -71,19 +71,40 @@
 /* Miscellaneous */
 #main_player .player_header span.display-queue::before { content: initial; }
 #browser .content-videos{
-  background: /* Top layer */ url(http://i.imgur.com/ClCNVFx.png),
+  background: /* Top layer */ url(http://i.imgur.com/0sxhBUn.png),
                               /* Fore image */
-           /* Bottom layer */ url(http://i.imgur.com/pUkiVts.png) center center/581px 775px no-repeat !important;
+           /* Bottom layer */ url(http://i.imgur.com/ClCNVFx.png) center center/581px 775px no-repeat !important;
                               /* Back image, position, size, repeat */
 }
-
 /* Import fixes */
 #chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: 0.01 !important; }
 
+/* Images & gradients */
+#main-loading{
+  background-image: linear-gradient(to bottom,
+                                    transparent 66px,
+                                    rgb(29, 69, 110) 66px,
+                                    rgb(29, 69, 110) 100%) !important;
+}
+
+.room-item{
+  background-image: linear-gradient(to top,
+                                    rgba(50, 60, 83, 0.80) 36px,
+                                    rgba(30, 41, 66, 0.80) 36px,
+                                    rgba(30, 41, 66, 0.80) 100%) !Important;
+}
+
+#main-menu-left,
+#main-menu-right{
+  background-image: linear-gradient(to top,
+                                    rgb(30, 41, 66) 58px,
+                                    rgba(30, 41, 66, 0.70) 58px,
+                                    rgba(30, 41, 66, 0.70) calc(100% - 56px),
+                                    rgb(30, 41, 66) calc(100% - 56px),
+                                    rgb(30, 41, 66) 100%) !Important;
+}
 
 /* TickingTime Chat Colour and stuff */
-
-
 #chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* TickingTime */ {
     color: #8CDD81 !important;
     text-shadow: 0px 0px 1px rgba(0,0,0,.5);
