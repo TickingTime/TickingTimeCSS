@@ -1,13 +1,13 @@
-@import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
-@import url("https://netox005.github.io/Dubtrack/css/videosmall.css"); /* Small video */
-@import url("https://netox005.github.io/Dubtrack/css/fixesnetux.css"); /* Netux Fixes */
-@import url("https://netox005.github.io/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
-@import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
-@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* NB3 animations */
+@import url("https://github.netux.ml/css/chatright.css"); /* Chat completely to the right */
+@import url("https://github.netux.ml/css/videosmall.css"); /* Small video */
+@import url("https://github.netux.ml/css/fixesnetux.css"); /* Netux Fixes */
+@import url("https://github.netux.ml/css/voteicons.css"); /* NB3 Vote Icons */
+@import url("https://github.netux.ml/css/skynet.css"); /* Netox's bot prefs */
+@import url("https://ngithub.netux.ml/css/animations.css"); /* NB3 animations */
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders and progress bars */
 @import url("https://frosolf.github.io/mixercore.css"); /* Chillout Mixer core theme */
-@import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Better recognizable Room BOTs */
-@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* Pack of animations */
+@import url("https://github.netux.ml/css/skynet.css"); /* Better recognizable Room BOTs */
+@import url("https://github.netux.ml/css/animations.css"); /* Pack of animations */
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
 
 /* Special people colors */
@@ -32,16 +32,16 @@
 #chat .chat-container ul.chat-main li.user-57cad451eefc48690074d4cd .stream-item-content .activity-row .username /* therealneko */ { color: #4DBD33 !important;  }
 #chat .chat-container ul.chat-main li.user-5700387c65113f5f00f07b1f .stream-item-content .activity-row .username /* tracerwannabe */ { color: #0276FD !important;  }
 
-
-
-/*Video next to chat */
+/* Video next to chat */
 @media screen and (min-width: 72em) {
-    #main-room .left_section {
-        left: initial;
-        right: 450px;
-        padding-right: 0 !important;
-        margin-left: 0 !important;
-    }    #main-room .left_section #main_player { border-radius: 0 0 0 1rem; }
+    #main-room .left_section { left: initial; right: 450px; }
+    #main-room .left_section #main_player { border-radius: 0 0 0 1rem; }
+}
+#main_player { padding-top: 1rem; 
+}
+#main_player .player_header #topbanner {
+	height: 1rem;
+}
 
 /* Room size fix */
 @media screen and (min-width: 72em) { #main-room .main-room-wrapper { min-height: 0; margin-bottom: 0; } }
@@ -140,4 +140,5 @@
     color: #FF7E00;
 }
 
-/* MANY PINAPPLES */
+/* Room size fix */ 
+#main-room { max-width: initial; padding: 3.5rem 0 3.6rem; }
