@@ -143,6 +143,14 @@
     line-height: 1.2;
     color: #FF7E00;
 }
+/* Bugtrack header logo */
+.header-center-logo a {
+	margin-top: 3.8px !important;
+	width: 3rem !important;
+	height: 3rem !important;
+	content: url('http://i.imgur.com/n0gx8lx.gif');
+}
+
 
 /* Room size fix */ 
 #main-room { max-width: initial; padding: 3.5rem 0 3.6rem; }
