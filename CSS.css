@@ -162,85 +162,8 @@
 /* Scrollbars more visible */
 .ps-container .ps-scrollbar-x, .ps-container .ps-scrollbar-y, .ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y {
   background-color: #000000
-}/* Queue redesign */
- 
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item {
-    background: transparent;
 }
- 
-#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a {
-    background: transparent;
-}
- 
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item {
-    background: transparent;
-}
- 
-#browser .browser-content .browser-content-main .sidebar .import-playlist, #browser .browser-content .browser-content-main .sidebar .create-playlist {
-    background: transparent;
-}
- 
-#browser .browser-content .browser-content-main .sidebar {
-    background: none;
-}
- 
-#browser .browser-content .browser-content-main .nano .content-videos {
-    background: rgba(0,0,0,0.7);
-}
- 
-#browser .browser-content .browser-content-main .nano .content-videos .queue_info .right a {
-    background: transparent;
-}
- 
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item {
-    background: rgba(0,0,0,0.5);
-}
- 
-#browser .browser-content .browser-content-header {
-    background: transparent !important;
-}
-#browser .browser-content .browser-content-main .sidebar #playlists-scroll {
-    background: rgba(0,0,0,0.3) !important;
-}
-#browser .browser-content .browser-content-header .form input {
-    background: rgba(0,0,0,0.5)!important;
-}
-#browser .browser-content .browser-content-header {
-    background: transparent;
-}
- 
-.main-page-container #main-section #player-controller {
-  border-radius: 0px !important;
-  background: rgba(0,0,0,0.8) !important;
-}
-#header-global .header-right-navigation .user-messages .message-counter {
-    background: #1a1a1a;
-}
-/* Fix ban font color */
-#user_popover .actions a input {
-    background: #1a1a1a !important;
-}
- 
-/* Fix footer bar gradient background */
-#player-controller .left:after {
- background-image: linear-gradient(to top,
-transparent 5px,
-transparent 5px,
-transparent 100%) !important;
-}
- 
-/* Bottom bar transparency and fix */
-.main-page-container #main-section #player-controller .left {
-  background-color: transparent !important;
-  border-radius: 0px !important;
-  background-image: none !important;
-}
- 
-.main-page-container #main-section #player-controller .right {
-  background: transparent !important;
-  border-radius: 0px !important;
-}
-	/* Custom Vote Icons */
+/* Custom Vote Icons */
 #player-controller .right ul li .dub-counter,
 #player-controller .right ul li .grab-counter
 { position: relative; top: -.35em; }
