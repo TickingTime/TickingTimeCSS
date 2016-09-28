@@ -240,3 +240,24 @@ transparent 100%) !important;
   background: transparent !important;
   border-radius: 0px !important;
 }
+	/* Custom Vote Icons */
+#player-controller .right ul li .dub-counter,
+#player-controller .right ul li .grab-counter
+{ position: relative; top: -.35em; }
+
+#player-controller .right ul li .icon-heart::before { content: url('http://i.imgur.com/HW1tM3M.png'); }
+#player-controller .right ul li .dubup .icon-upvote::before { content: url('http://i.imgur.com/YaAtzXt.png'); }
+#player-controller .right ul li .dubdown .icon-downvote::before { content: url('http://i.imgur.com/ayH2fZw.png'); }
+
+/* hebgbs fixes */
+#player-controller .right ul li:nth-child(n+2):nth-child(n-5){ position: relative; top: -4px !Important; }
+
+/* Grab message icon */
+#chat .chat-container .chat-messages .chat-main li.chat-system-grabbed::after {
+    background-image: url('http://i.imgur.com/HW1tM3M.png');
+    display: inline;
+    position: absolute;
+    background-size: cover;
+    width: 1.5rem;
+    height: 1.5rem;
+}
