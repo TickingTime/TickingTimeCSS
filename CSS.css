@@ -110,6 +110,21 @@
                                     rgb(30, 41, 66) calc(100% - 56px),
                                     rgb(30, 41, 66) 100%) !Important;
 }
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item {
+    background: transparent;
+}
+ 
+#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a {
+    background: transparent;
+}
+ 
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item {
+    background: transparent;
+}
+ 
+#browser .browser-content .browser-content-main .sidebar .import-playlist, #browser .browser-content .browser-content-main .sidebar .create-playlist {
+    background: transparent;
+	}
 
 /* TickingTime Chat Colour and stuff */
 #chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* TickingTime */ {
