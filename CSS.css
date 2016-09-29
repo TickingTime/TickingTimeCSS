@@ -155,9 +155,9 @@
 /* Room size fix */ 
 #main-room { max-width: initial; padding: 3.5rem 0 3.6rem; }
 	
-/* Welcome message in white */
+/* Welcome message in light blue */
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message {
-  color: white !important;
+  color: lightblue !important;
 }	
 /* Scrollbars more visible */
 .ps-container .ps-scrollbar-x, .ps-container .ps-scrollbar-y, .ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x, .ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y {
