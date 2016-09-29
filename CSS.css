@@ -23,7 +23,6 @@
 #chat .chat-container ul.chat-main li.user-56cb6b73e85e1f1c0170f10a .stream-item-content .activity-row .username /* angeloidikaros */ { color:#DDA0DD !important;  }
 #chat .chat-container ul.chat-main li.user-56bcab3a6d969f1d0098a158 .stream-item-content .activity-row .username /* satananas */ { color:#61B329 !important;  }
 #chat .chat-container ul.chat-main li.user-57949197d2bce5a0005d9f74 .stream-item-content .activity-row .username /* dannis */ { color:#FF7E00 !important;  }
-#chat .chat-container ul.chat-main li.user-560a8df0b776b203001e6735 .stream-item-content .activity-row .username /* laquett */ { color:#7D26CD !important;  }
 #chat .chat-container ul.chat-main li.user-579143710581f82a00263624 .stream-item-content .activity-row .username /* lord_erazor */ { color:#8B0000 !important;  }
 #chat .chat-container ul.chat-main li.user-56083b920cd1cc03003fe8e2 .stream-item-content .activity-row .username /* larry1123 */ { color:#EE2C2C !important;  }
 #chat .chat-container ul.chat-main li.user-563b48d8327d731900f6cefe .stream-item-content .activity-row .username /* kindness */ { color:#e5e5e5 !important;  }
@@ -118,6 +117,28 @@
     line-height: 1.2;
     color: #FF7E00;
 }
+/* Never_Pause Chat Color and Stuff */
+#chat .chat-container ul.chat-main li.user-56c057eaa23bb71d0001ac91 .stream-item-content .activity-row .username:before {
+    content: "\f192";
+    font-family: "foundation-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;
+    margin-right: 5px;
+}	
+/* Laquett Chat Color and Stuff  */
+#chat .chat-container ul.chat-main li.user-560a8df0b776b203001e6735 .stream-item-content .activity-row .username {
+    background: linear-gradient(to right, #9400D3, #4B0082, #0000FF, #00FF00, #FFFF00, #FF7F00, #FF0000);
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 0 rgba(255,255,255,.25);
+    color: transparent;
+    width: 3.6rem;
+	}	
 /* Bugtrack header logo */
 .header-center-logo a {
 	margin-top: 3.8px !important;
