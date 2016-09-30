@@ -190,3 +190,60 @@
 .main_content {
     background: linear-gradient(to bottom, rgba(112,112,232,0.66) 0%, rgba(74,74,151,0.9) 5%, rgba(112,112,232,0.66) 90%, rgba(74,74,151,0.9)!important;
 }	
+/* NB3 Room Additions */
+
+/* badges */
+.creator span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png);
+    display: inline-block !important;
+}
+
+.co-owner span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png);
+    display: inline-block !important;
+}
+
+.manager span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/manager.png);
+    display: inline-block !important;
+}
+
+.mod span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/bouncer.png);
+    display: inline-block !important;
+}
+
+.vip span.user-role-icon {
+    background-image: url(http://i.imgur.com/GkMK1mo.png);
+    display: inline-block !important;
+}
+
+.resident-dj span.user-role-icon {
+    background-image: url(http://i.imgur.com/xeV5vde.png);
+    display: inline-block !important;
+}
+
+#chat .chat-main .user-56005297239f1303009c88c5 .username {
+    color: #4dc9ff !important;
+}
+
+/* Emote sizes */
+#chat .emoji {
+    max-width: none !important;
+    max-height: 28px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+/* me command fix */
+#chat .chat-container .chat-messages .chat-main li.system-error {
+    text-transform: uppercase;
+}
+
+#chat .chat-main li[class*='system'] {
+    color: darkturquoise !important;
+    text-align: center;
+    border-top: darkturquoise 1px solid !important;
+    border-bottom: darkturquoise 1px solid !important;
+}	
+	
