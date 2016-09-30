@@ -229,7 +229,7 @@
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username
 {
-    color: #CD2626;
+    color: #37FDFC;
 }
 
 #chat .chat-container .chat-messages .chat-main li.admin .user-role,
@@ -261,7 +261,7 @@
 }
 
 .resident-dj span.user-role-icon {
-    background-image: url(http://i.imgur.com/8sGlCFn.png);
+    background-image: url(http://i.imgur.com/TjpOdhp.png);
     display: inline-block !important;
 }
 
