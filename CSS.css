@@ -119,7 +119,7 @@
 }
 	
 /* Never_Pause Chat Color and Stuff */
-#chat .chat-container ul.chat-main li.user-56c057eaa23bb71d0001ac91 .stream-item-content .activity-row .username:before {
+#chat .chat-container ul.chat-main li.user-56d545a245f02ad6041a4317 .stream-item-content .activity-row .username:before {
     content: "\f192";
     font-family: "foundation-icons";
     font-style: normal;
@@ -131,7 +131,7 @@
     display: inline-block;
     text-decoration: inherit;
     margin-right: 5px;
-}	
+}
 	
 /* Laquett Chat Color and Stuff  */
 #chat .chat-container ul.chat-main li.user-560a8df0b776b203001e6735 .stream-item-content .activity-row .username {
