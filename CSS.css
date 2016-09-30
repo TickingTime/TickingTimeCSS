@@ -137,10 +137,9 @@
 #chat .chat-container ul.chat-main li.user-560a8df0b776b203001e6735 .stream-item-content .activity-row .username {
     background: linear-gradient(to right, #9400D3, #4B0082, #0000FF, #00FF00, #FFFF00, #FF7F00, #FF0000);
     -webkit-background-clip: text;
-    text-shadow: 1px 1px 0 rgba(255,255,255,.25);
     color: transparent;
     width: 3.6rem;
-	}	
+}	
 	
 /* Bugtrack header logo */
 .header-center-logo a {
