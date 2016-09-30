@@ -255,26 +255,6 @@
 
 
 /* badges */
-.creator span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png);
-    display: inline-block !important;
-}
-
-.co-owner span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png);
-    display: inline-block !important;
-}
-
-.manager span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/manager.png);
-    display: inline-block !important;
-}
-
-.mod span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/bouncer.png);
-    display: inline-block !important;
-}
-
 .vip span.user-role-icon {
     background-image: url(http://i.imgur.com/0p0MVzi.png);
     display: inline-block !important;
