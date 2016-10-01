@@ -268,17 +268,17 @@
 
 /* badges */
 .creator span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png);
+    background-image: url(http://i.imgur.com/PguY24V.png);
     display: inline-block !important;
 }
 
 .co-owner span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png);
+    background-image: url(http://i.imgur.com/XBnKhgI.png);
     display: inline-block !important;
 }
 
 .manager span.user-role-icon {
-    background-image: url(https://nightbloo.github.io/plug/icons/manager.png);
+    background-image: url(http://i.imgur.com/TnelGCf.png);
     display: inline-block !important;
 }
 
