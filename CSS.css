@@ -92,7 +92,7 @@
 }
 
 #chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username:before /* TickingTime */ {
-    content: "\f137";
+    content: "☣";
     font-family: "foundation-icons";
     font-style: normal;
     font-weight: normal;
@@ -268,7 +268,7 @@
 
 /* badges */
 .vip span.user-role-icon {
-    background-image: url(http://i.imgur.com/0p0MVzi.png);
+    background-image: url(http://i.imgur.com/0lnLaMY.png);
     display: inline-block !important;
 }
 
