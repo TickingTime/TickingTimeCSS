@@ -12,7 +12,6 @@
 
 /* Special people colors */
 #chat .chat-container ul.chat-main li.user-56b928b1a3e55abb04b33dae .stream-item-content .activity-row .username /* theofficialturbo */ { color: #00E5EE !important;  }
-#chat .chat-container ul.chat-main li.user-55ffe1e8196f170300cc102a .stream-item-content .activity-row .username /* demoz */ { color: #DC143C !important;  }
 #chat .chat-container ul.chat-main li.user-56f7633a956749c200c62101 .stream-item-content .activity-row .username /* funnyguy77 */ { color: #4DBD33 !important;  }
 #chat .chat-container ul.chat-main li.user-560b18f88b4f900300cc6c06 .stream-item-content .activity-row .username /* slyfox */ { color: #76EE00 !important;  }
 #chat .chat-container ul.chat-main li.user-570476b1fa0b0d5a00d2d1ec .stream-item-content .activity-row .username /* sister */ { color: #D43D1A !important;  }
@@ -31,7 +30,6 @@
 #chat .chat-container ul.chat-main li.user-57cad451eefc48690074d4cd .stream-item-content .activity-row .username /* therealneko */ { color: #4DBD33 !important;  }
 #chat .chat-container ul.chat-main li.user-5700387c65113f5f00f07b1f .stream-item-content .activity-row .username /* tracerwannabe */ { color: #0276FD !important;  }
 #chat .chat-container ul.chat-main li.user-566d9dd049628d1900be79ba .stream-item-content .activity-row .username /* shifty */ { color: #05B8CC !important;  }
-#chat .chat-container ul.chat-main li.user-562e6582afa97c1900f755a3 .stream-item-content .activity-row .username /* siilerbloo */ { color: #FF1493 !important;  }
 #chat .chat-container ul.chat-main li.user-560a8df0b776b203001e6735 .stream-item-content .activity-row .username /* laquett */ { color: #7D26CD !important;  }
 
 
@@ -92,7 +90,7 @@
 }
 
 #chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username:before /* TickingTime */ {
-    content: "☣";
+    content: "♬";
     font-family: "foundation-icons";
     font-style: normal;
     font-weight: normal;
@@ -201,7 +199,7 @@
 #main_avatar_room #main-user-list-room #avatar-list li.creator .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.creator .username
 {
-    color: #FF38CB;
+    color: #FF4DFE;
 }
 
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
@@ -209,7 +207,7 @@
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .username
 {
-    color: #FF007F;
+    color: #FF4DFE;
 }
 
 #chat .chat-container .chat-messages .chat-main li.manager .user-role,
@@ -217,7 +215,7 @@
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .username
 {
-    color: #3083FF;
+    color: #8D70FF;
 }
 
 #chat .chat-container .chat-messages .chat-main li.mod .user-role,
@@ -225,7 +223,7 @@
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.mod .username
 {
-    color: #3083FF;
+    color: #8D70FF;
 }
 
 #chat .chat-container .chat-messages .chat-main li.vip .user-role,
@@ -233,7 +231,7 @@
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .username
 {
-    color: #FF00FF;
+    color: #2D22C7;
 }
 
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
@@ -287,7 +285,7 @@
     display: inline-block !important;
 }
 .vip span.user-role-icon {
-    background-image: url(http://i.imgur.com/0lnLaMY.png);
+    background-image: url(http://i.imgur.com/uEKIXeL.png);
     display: inline-block !important;
 }
 
