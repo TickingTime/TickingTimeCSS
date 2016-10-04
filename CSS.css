@@ -141,14 +141,8 @@
     text-decoration: inherit;
     margin-right: 5px;
 }
-/* TheOfficialTurbo Chat Color and Stuff */
-#chat .chat-main li.user-56b928b1a3e55abb04b33dae:not(.deleted-message) .activity-row .username::before {
-    content: "http://i.imgur.com/0PQ0yLa.png";
-    font-weight: 700;
-    line-height: 1.2;
-    color: #8A2BE2;
-}
-	
+
+
 /* Bugtrack header logo */
 .header-center-logo a {
 	margin-top: 3.8px !important;
