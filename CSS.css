@@ -141,6 +141,20 @@
     text-decoration: inherit;
     margin-right: 5px;
 }
+/* TheOfficialTurbo Chat Color and Stuff */
+#chat .chat-container ul.chat-main li.user-56b928b1a3e55abb04b33dae .stream-item-content .activity-row .username:before {
+    content: "http://i.imgur.com/0PQ0yLa.png";
+    font-family: "foundation-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;
+    margin-right: 5px;
+}
 	
 /* Bugtrack header logo */
 .header-center-logo a {
