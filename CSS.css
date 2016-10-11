@@ -122,7 +122,7 @@
 #chat .chat-container .chat-messages .chat-main li.user-542dca96d5fb6a0200b3a298 .activity-row .username > * {
     display: none !important;
 }
-#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .username::before {
+#chat .chat-main li.user-542dca96d5fb6a0200b3a298:not(.deleted-message) .activity-row .username::before {
     content: "ⅅreken";
     font-weight: 700;
     line-height: 1.2;
