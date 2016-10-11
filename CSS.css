@@ -101,6 +101,20 @@
     text-decoration: inherit;
     margin-right: 5px;
 }
+/* Dreken Chat Color and Stuff */
+#chat .chat-container .chat-messages .chat-main li.user-542dca96d5fb6a0200b3a298 .activity-row .username {
+    color: rgba(0,0,0,0);
+}
+#chat .chat-container .chat-messages .chat-main li.user-542dca96d5fb6a0200b3a298 .activity-row .username > * {
+    display: none !important;
+}
+#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .username::before {
+    content: "ⅅreken";
+    font-weight: 700;
+    line-height: 1.2;
+    color: #2D2D99;
+}
+
 /* Netux Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username {
     color: rgba(0,0,0,0);
