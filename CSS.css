@@ -1,6 +1,5 @@
 @import url("https://github.netux.ml/css/chatright.css"); /* Chat completely to the right */
 @import url("https://github.netux.ml/css/videosmall.css"); /* Small video */
-@import url("https://github.netux.ml/css/fixesnetux.css"); /* Netux Fixes */
 @import url("https://github.netux.ml/css/voteicons.css"); /* NB3 Vote Icons */
 @import url("https://github.netux.ml/css/skynet.css"); /* Netox's bot prefs */
 @import url("https://github.netux.ml/css/animations.css"); /* NB3 animations */
@@ -31,6 +30,63 @@
 #chat .chat-container ul.chat-main li.user-5700387c65113f5f00f07b1f .stream-item-content .activity-row .username /* tracerwannabe */ { color: #0276FD !important;  }
 #chat .chat-container ul.chat-main li.user-566d9dd049628d1900be79ba .stream-item-content .activity-row .username /* shifty */ { color: #05B8CC !important;  }
 
+/* User banned fix */
+#chat .pusher-chat-widget-input p {
+    padding: .5rem 0;
+    text-align: center;
+    font-weight: bold;
+    color: #AB0000;
+    cursor: default;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    text-transform: uppercase;
+}
+#chat .pusher-chat-widget-input p::after { content: " ( Congrats... )"; text-transform: none; }
+
+/* Chat avatars fix */
+#chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row { border-radius: 10%; }
+#chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row > img {
+    max-width: none;
+    height: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+}
+/* Profile fixes */
+#profileMainSection { top: 3.4rem; min-height: initial; height: calc(100vh - 6.9rem); overflow-y: auto; }
+#profileMainSection .profileWrapper { margin-top: 3rem; }
+#profileMainSection #profileSidebar #followersEl { margin-bottom: 3rem; }
+
+/* User banned/message deleted fix */
+#chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: .01; }
+#chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row::before {
+    content: "X";
+    font-family: cursive, Arial, sans-serif;
+    position: absolute;
+    top: 3px;
+    left: 13px;
+    font-weight: 900;
+    color: red;
+    font-size: 1.5rem;
+}
+
+/* Soundcloud player fixes */
+#room-main-player-container-soundcloud { background-color: #111111; cursor: default; }
+#main_player .player_container #room-main-player-container .playerElement.soundcloud img { pointer-events: none; }
+
+/* ETA fixes (DubX) */
+.eta_tooltip, .snooze_tooltip { border-top-right-radius: 0 !important; transform: translateX(-7px); }
+.eta_tooltip::before, .snooze_tooltip::before {
+    content: "";
+    position: absolute;
+    left: calc(100% - 8px);
+    bottom: calc(100% - 15px / 1.5);
+    transform: rotate(45deg);
+    border: 8px solid transparent;
+    border-bottom: 15px solid white;
+}
 
 /* Video next to chat */
 @media screen and (min-width: 72em) {
