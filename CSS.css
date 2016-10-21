@@ -177,19 +177,6 @@
     line-height: 1.2;
     color: #CD0000;
 }
-/* Maskinen Chat Color and Stuff */
-#chat .chat-container .chat-messages .chat-main li.user-55607ef7e424a6203007d4fbe .activity-row .username {
-    color: rgba(0,0,0,0);
-}
-#chat .chat-container .chat-messages .chat-main li.user-5607ef7e424a6203007d4fbe .activity-row .username > * {
-    display: none !important;
-}
-#chat .chat-main li.user-5607ef7e424a6203007d4fbe:not(.deleted-message) .activity-row .username::before {
-    content: "ℳaskinen";
-    font-weight: 700;
-    line-height: 1.2;
-    color: #8A2BE2;
-}
 /* Never_Pause Chat Color and Stuff */
 #chat .chat-container ul.chat-main li.user-56d545a245f02ad6041a4317 .stream-item-content .activity-row .username:before {
     content: "\f192";
