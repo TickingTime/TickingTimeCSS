@@ -8,6 +8,8 @@
 @import url("https://github.netux.ml/css/skynet.css"); /* Better recognizable Room BOTs */
 @import url("https://github.netux.ml/css/animations.css"); /* Pack of animations */
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
+@import url("https://github.netux.ml/css/fixesnetux.css"); /* Netux Fixes */
+
 
 /* Special people colors */
 #chat .chat-container ul.chat-main li.user-56b928b1a3e55abb04b33dae .stream-item-content .activity-row .username /* theofficialturbo */ { color: #00E5EE !important;  }
@@ -204,6 +206,18 @@
 
 /* Room size fix */ 
 #main-room { max-width: initial; padding: 3.5rem 0 3.6rem; }
+
+/* Skip Button fix (thanks angel <3 ) */
+#main_player .player_header span.skip-el {
+    float: left;
+    margin: .125rem 0 ;
+    position: relative ;
+    padding: .5rem 0 .5rem .5rem !;
+    width: 73px !important;
+    border-radius: 1rem 0 0 1rem ;
+    overflow: hidden ;
+    text-overflow: ellipsis ;
+}
 	
 /* Welcome message in light blue */
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message {
@@ -350,6 +364,21 @@
 #chat .chat-container .chat-messages .chat-main li.system-error {
     text-transform: uppercase;
 }
+
+/* Info tab fixes */
+#room-info-display .room-info-display-wrapper h2 { margin-top: 1rem; margin-bottom: 2rem; font-size: 1.5rem; }
+#room-info-display .room-info-display-wrapper h2 span,
+#room-info-display .room-info-display-wrapper h2 span i {
+    font-size: 1rem;
+}
+
+/* Mod tab fixes */
+#mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers { top: 0; }
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active { width: 50%; float: left; }
+
+/* Miscellaneous */
+#main_player .player_header span.display-queue::before { content: initial; }
 
 #chat .chat-main li[class*='system'] {
     color: darkturquoise !important;
