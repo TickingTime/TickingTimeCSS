@@ -363,6 +363,23 @@
 
 /* Kris aditions */
 
+/* Top bar */
+#header-global {
+    /*background: linear-gradient(to bottom, rgba(20,20,20,0.66) 0%, rgba(20,20,20,0.66) 90%, rgba(20,20,20,0) 100%);*/
+    background: rgba(15,15,15,0.66);
+}
+#header-global .header-right-navigation .user-info span:hover,
+#header-global .header-right-navigation .user-messages:hover,
+#header-global .header-right-navigation .for:hover {
+    color: #fff;
+}
+#header-global .header-right-navigation .user-messages .message-counter {
+    background: #CC5A93;
+}
+#header-global .header-right-navigation .user-messages .message-counter {
+    color: #fff;
+}
+
 @media screen and (min-width: 72em) { /* If not "phone mode" */
     #main-room #chat .chat-container .chat-messages { height: inherit; }
     #main-room #chat .chat-container, #chat { height: 100%; }
@@ -382,7 +399,7 @@
 float: right;
 }
 
-/* Video (Main player - left) */
+/* Video (Main player - right) */
     /* Header */
 #main_player {
     background: rgba(15,15,15,0.66);
