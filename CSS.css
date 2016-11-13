@@ -9,7 +9,6 @@
 @import url("https://github.netux.ml/css/animations.css"); /* Pack of animations */
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
 @import url("https://github.netux.ml/css/fixesnetux.css"); /* Netux Fixes */
-@import url("https://dl.dropboxusercontent.com/s/xzb1r2zzvolmwaj/CM%20theme.css"); /* Better Buttons (Adds better buttons) */
 
 /* Special people colors */
 #chat .chat-container ul.chat-main li.user-56b928b1a3e55abb04b33dae .stream-item-content .activity-row .username /* theofficialturbo */ { color: #00E5EE !important;  }
@@ -361,6 +360,29 @@
 #room-info-display .room-info-display-wrapper h2 span i {
     font-size: 1rem;
 }
+
+/* Kris aditions */
+
+@media screen and (min-width: 72em) { /* If not "phone mode" */
+    #main-room #chat .chat-container .chat-messages { height: inherit; }
+    #main-room #chat .chat-container, #chat { height: 100%; }
+}
+
+@media screen and (min-width: 72em) { /* If not "phone mode" */
+    /* Main function */
+    #main-room .left_section { padding: 0; margin-top: 49px !important;  }
+    #main-room .left_section  .main-player-wrapper { display: initial; }
+    #main_player { width: 100%; max-width: 35.6%; min-width: 450px; float: right; }
+
+}
+#main_player .player_header{border-radius:0 !important;}
+
+
+#browser .browser-content {
+float: right;
+}
+
+
 
 /* Mod tab fixes */
 #mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
