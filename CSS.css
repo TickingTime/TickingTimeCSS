@@ -382,8 +382,127 @@
 float: right;
 }
 
+/* Video (Main player - left) */
+    /* Header */
+#main_player {
+    background: rgba(15,15,15,0.66);
+    border-radius: 0;
+    border-top: 1px solid #878c8e;
+}
+#main_player .player_header {
+    background: inherit;
+    color: #ccc;
+    opacity: 1;
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding-top: 12px;
+    top: -49px;
+}
+#main_player .player_header span {
+    background: rgba(0,0,0,0);
+    color: #aaa;
+    opacity: 1;
+    font-size: 15.2px;
+    font-size: .95rem;
+    line-height: .8;
+    border-radius: 0;
+}
+#main_player .player_header .active {
+    padding-bottom: 14px;
+}
+#main_player .player_header span:hover:not(.active) {
+    background: rgba(0,0,0,0);
+    color: #fff;
+}
+#main_player .player_header span.active {
+    background: rgba(0,0,0,0);
+    color: #fff;
+    opacity: 1;
+    border-bottom: 2px solid #fff;
+}
+#main_player .player_header span.edit-room i {
+    line-height: 0.95;
+    left: -0.5px;
+}
+#main_player .player_header span.skip-el {
+    margin-right: 0;
+}
+#main_player .player_header #topbanner {
+    margin-top: -6rem;
+}
+#main-room .left_section {
+    margin-top: 0rem;
+}
 
+    /* Room info */
+#room-info-display .room-info-display-container h2 span i {
+    color: #5A93CC;
+}
+#room-info-display .room-info-display-wrapper .description {
+    color: #ddd;
+}
+#room-info-display .room-info-display-container .autolink,
+#room-info-display .room-info-display-container .autolink:visited:hover{
+    color: #5A93CC;
+}
+#room-info-display .room-info-display-container .autolink:visited {
+    color: #0063a6;
+}
 
+    /* Mod controls */
+#main_player #mods-controllers .mod-controllers-headers a,
+#mods-controllers .mods-controllers-wrapper .mods-controllers-ban-list.show-controller .user-list li .actions, 
+#mods-controllers .mods-controllers-wrapper .mods-controllers-mute-list.show-controller .user-list li .actions,
+#mods-controllers .mods-controllers-main-wrapper .mods-controllers-wrapper .mods-controllers-staff-list .user-list li .actions {
+    color: #aaa;
+}
+#main_player #mods-controllers .mod-controllers-headers a:hover,
+#main_player #mods-controllers .mod-controllers-headers .active,
+#mods-controllers .mods-controllers-wrapper .mods-controllers-ban-list.show-controller .user-list li .actions:hover, 
+#mods-controllers .mods-controllers-wrapper .mods-controllers-mute-list.show-controller .user-list li .actions:hover,
+#mods-controllers .mods-controllers-main-wrapper .mods-controllers-wrapper .mods-controllers-staff-list .user-list li .actions:hover{
+    color: #fff;
+}
+#mods-controllers .mods-controllers-wrapper .mods-controllers-commands-list.show-controller .skip-el:hover {
+    color: #fff;
+}
+#mods-controllers .mods-controllers-main-wrapper .mods-controllers-wrapper .mods-controllers-commands-list .chat-command-list li,
+#mods-controllers .mods-controllers-main-wrapper .mods-controllers-wrapper .mods-controllers-commands-list .chat-command-list li .actions {
+    cursor: text;
+}
+#main_player .player_sharing span,
+#main_player .player_sharing .player-controller-container span {
+    color: #aaa;
+}
+#main_player .player_sharing span:hover,
+#main_player .player_sharing .player-controller-container span:hover {
+    color: #fff;
+}
+#main_player .player_sharing .player-controller-container span.videoquality-el.show {
+    color: #666;
+}
+#main_player .player_sharing .player-controller-container span.videoquality-el.show:hover {
+    color: #888;
+}
+#main_player .player_sharing .player-controller-container span.videoquality-el.active-hd,
+#main_player .player_sharing .player-controller-container span.videoquality-el.active-hd:hover {
+    color: #aaa;
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
+    background: #aaa;
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min {
+    background: #5A93CC;
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle:hover {
+    background: #fff;
+}
+#main_player .player_sharing .player-controller-container .hideVideo-el span.icon-eye-blocked:before {
+    content: "\e90b";
+}
+#main_player .player_sharing .player-controller-container .hideVideo-el span.icon-eye-unblocked:before {
+    content: "\e90a";
+}
+   
 /* Mod tab fixes */
 #mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers { top: 0; }
