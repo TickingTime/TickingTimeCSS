@@ -363,9 +363,19 @@
 
 /* Kris aditions */
 
+#main_player .player_header span.skip-el {
+    margin-right: 0;
+}
+#main_player .player_header #topbanner {
+    margin-top: -6rem;
+}
+#main-room .left_section {
+    margin-top: 0rem;
+}
+
 /* Top bar */
 #header-global {
-    /*background: linear-gradient(to bottom, rgba(20,20,20,0.66) 0%, rgba(20,20,20,0.66) 90%, rgba(20,20,20,0) 100%);*/
+    background: linear-gradient(to bottom, rgba(20,20,20,0.66) 0%, rgba(20,20,20,0.66) 90%, rgba(20,20,20,0) 100%);
     background: rgba(15,15,15,0.66);
 }
 #header-global .header-right-navigation .user-info span:hover,
