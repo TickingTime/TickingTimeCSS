@@ -1,5 +1,4 @@
 @import url("https://github.netux.ml/css/chatright.css"); /* Chat completely to the right */
-@import url("https://github.netux.ml/css/videosmall.css"); /* Small video */
 @import url("https://github.netux.ml/css/voteicons.css"); /* NB3 Vote Icons */
 @import url("https://github.netux.ml/css/skynet.css"); /* Netox's bot prefs */
 @import url("https://github.netux.ml/css/animations.css"); /* NB3 animations */
@@ -9,7 +8,14 @@
 @import url("https://github.netux.ml/css/animations.css"); /* Pack of animations */
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
 @import url("https://github.netux.ml/css/fixesnetux.css"); /* Netux Fixes */
-
+ 
+/* Small video (without buttons fix) from https://github.netux.ml/css/videosmall.css */
+@media screen and (min-width: 72em) { /* If not "phone mode" */
+    #main-room .left_section { padding: 0; margin-top: 0; }
+    #main-room .left_section  .main-player-wrapper { display: initial; }
+    #main_player { width: 100%; max-width: 35.6%; min-width: 450px; float: right; }
+}
+ 
 /* Special people colors */
 #chat .chat-container ul.chat-main li.user-56b928b1a3e55abb04b33dae .stream-item-content .activity-row .username /* theofficialturbo */ { color: #00E5EE !important;  }
 #chat .chat-container ul.chat-main li.user-56f7633a956749c200c62101 .stream-item-content .activity-row .username /* funnyguy77 */ { color: #4DBD33 !important;  }
@@ -30,7 +36,7 @@
 #chat .chat-container ul.chat-main li.user-57cad451eefc48690074d4cd .stream-item-content .activity-row .username /* therealneko */ { color: #4DBD33 !important;  }
 #chat .chat-container ul.chat-main li.user-5700387c65113f5f00f07b1f .stream-item-content .activity-row .username /* tracerwannabe */ { color: #0276FD !important;  }
 #chat .chat-container ul.chat-main li.user-566d9dd049628d1900be79ba .stream-item-content .activity-row .username /* shifty */ { color: #05B8CC !important;  }
-
+ 
 /* User banned fix */
 #chat .pusher-chat-widget-input p {
     padding: .5rem 0;
@@ -45,7 +51,7 @@
     text-transform: uppercase;
 }
 #chat .pusher-chat-widget-input p::after { content: " ( Congrats... )"; text-transform: none; }
-
+ 
 /* Chat avatars fix */
 #chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row { border-radius: 10%; }
 #chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row > img {
@@ -59,7 +65,7 @@
 #profileMainSection { top: 3.4rem; min-height: initial; height: calc(100vh - 6.9rem); overflow-y: auto; }
 #profileMainSection .profileWrapper { margin-top: 3rem; }
 #profileMainSection #profileSidebar #followersEl { margin-bottom: 3rem; }
-
+ 
 /* User banned/message deleted fix */
 #chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: .01; }
 #chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row::before {
@@ -72,11 +78,11 @@
     color: red;
     font-size: 1.5rem;
 }
-
+ 
 /* Soundcloud player fixes */
 #room-main-player-container-soundcloud { background-color: #111111; cursor: default; }
 #main_player .player_container #room-main-player-container .playerElement.soundcloud img { pointer-events: none; }
-
+ 
 /* ETA fixes (DubX) */
 .eta_tooltip, .snooze_tooltip { border-top-right-radius: 0 !important; transform: translateX(-7px); }
 .eta_tooltip::before, .snooze_tooltip::before {
@@ -88,21 +94,21 @@
     border: 8px solid transparent;
     border-bottom: 15px solid white;
 }
-
+ 
 /* Video next to chat */
 @media screen and (min-width: 72em) {
     #main-room .left_section { left: initial; right: 450px; }
     #main-room .left_section #main_player { border-radius: 0 0 0 1rem; }
 }
-#main_player { padding-top: 1rem; 
+#main_player { padding-top: 1rem;
 }
 #main_player .player_header #topbanner {
-	height: 1rem;
+    height: 1rem;
 }
-
+ 
 /* Room size fix */
 @media screen and (min-width: 72em) { #main-room .main-room-wrapper { min-height: 0; margin-bottom: 0; } }
-
+ 
 /* Skip animation */
 @keyframes hidding-skip {
     0% { right: 0; }
@@ -115,12 +121,12 @@
         display: block !important;
     }
 }
-
+ 
 /* Mod tab fixes */
 #mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers { top: 0; }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active { width: 50%; float: left; }
-
+ 
 /* Miscellaneous */
 #main_player .player_header span.display-queue::before { content: initial; }
 #browser .content-videos{
@@ -131,16 +137,16 @@
 }
 /* Import fixes */
 #chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: 0.01 !important; }
-
+ 
 /* TickingTime Chat Colour and stuff */
 #chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* TickingTime */ {
     color: #8CDD81 !important;
     text-shadow: 0px 0px 1px rgba(0,0,0,.5);
 }
-
+ 
 #chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username:before /* TickingTime */ {
     content: "ƬickingƬime"
-	    
+       
 }
 /* Netux Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username {
@@ -182,20 +188,20 @@
     text-decoration: inherit;
     margin-right: 5px;
 }
-
-
+ 
+ 
 /* Bugtrack header logo */
 .header-center-logo a {
-	margin-top: 3.8px !important;
-	width: 3rem !important;
-	height: 3rem !important;
-	content: url('http://i.imgur.com/n0gx8lx.gif');
+    margin-top: 3.8px !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    content: url('http://i.imgur.com/n0gx8lx.gif');
 }
-
-
-/* Room size fix */ 
+ 
+ 
+/* Room size fix */
 #main-room { max-width: initial; padding: 3.5rem 0 3.6rem; }
-
+ 
 /* Skip Button fix (thanks angel <3 ) */
 #main_player .player_header span.skip-el {
     float: left;
@@ -207,24 +213,24 @@
     overflow: hidden ;
     text-overflow: ellipsis ;
 }
-	
+   
 /* Welcome message in light blue */
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message {
   color: lightblue !important;
 }
-
+ 
 /* Custom Vote Icons */
 #player-controller .right ul li .dub-counter,
 #player-controller .right ul li .grab-counter
 { position: relative; top: -.35em; }
-
+ 
 #player-controller .right ul li .icon-heart::before { content: url('http://i.imgur.com/CtKu2gz.png'); }
 #player-controller .right ul li .dubup .icon-upvote::before { content: url('http://i.imgur.com/KWxxNGv.png'); }
 #player-controller .right ul li .dubdown .icon-downvote::before { content: url('http://i.imgur.com/bxJufat.png'); }
-
+ 
 /* hebgbs fixes */
 #player-controller .right ul li:nth-child(n+2):nth-child(n-5){ position: relative; top: -4px !Important; }
-
+ 
 /* Grab message icon */
 #chat .chat-container .chat-messages .chat-main li.chat-system-grabbed::after {
     background-image: url('http://i.imgur.com/CtKu2gz.png');
@@ -235,7 +241,7 @@
     height: 1.5rem;
 }
 /* NB3 Room Additions */
-
+ 
 /* name colours */
 #chat .chat-container .chat-messages .chat-main li.creator .user-role,
 #chat .chat-container .chat-messages .chat-main li.creator .username,
@@ -244,7 +250,7 @@
 {
     color: #FF4DFE;
 }
-
+ 
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
 #chat .chat-container .chat-messages .chat-main li.co-owner .username,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role,
@@ -252,7 +258,7 @@
 {
     color: #FF4DFE;
 }
-
+ 
 #chat .chat-container .chat-messages .chat-main li.manager .user-role,
 #chat .chat-container .chat-messages .chat-main li.manager .username,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role,
@@ -260,7 +266,7 @@
 {
     color: #8D70FF;
 }
-
+ 
 #chat .chat-container .chat-messages .chat-main li.mod .user-role,
 #chat .chat-container .chat-messages .chat-main li.mod .username,
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role,
@@ -268,7 +274,7 @@
 {
     color: #8D70FF;
 }
-
+ 
 #chat .chat-container .chat-messages .chat-main li.vip .user-role,
 #chat .chat-container .chat-messages .chat-main li.vip .username,
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role,
@@ -276,7 +282,7 @@
 {
     color: #2D22C7;
 }
-
+ 
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
 #chat .chat-container .chat-messages .chat-main li.resident-dj .username,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role,
@@ -284,7 +290,7 @@
 {
     color: #37FDFC;
 }
-
+ 
 #chat .chat-container .chat-messages .chat-main li.admin .user-role,
 #chat .chat-container .chat-messages .chat-main li.admin .username,
 #main_avatar_room #main-user-list-room #avatar-list li.admin .user-role,
@@ -292,7 +298,7 @@
 {
     color: #ff7e00;
 }
-
+ 
 #chat .chat-container .chat-messages .chat-main li.user-55ffae6a1564a403003f5132 .user-role,
 #chat .chat-container .chat-messages .chat-main li.user-55ffae6a1564a403003f5132 .username,
 #main_avatar_room #main-user-list-room #avatar-list li.userid-55ffae6a1564a403003f5132 .user-role,
@@ -300,29 +306,29 @@
 {
     color: #caca00;
 }
-
+ 
 .admin .username:after
 {
     display: none;
 }
-
-
+ 
+ 
 /* badges */
 .creator span.user-role-icon {
     background-image: url(http://i.imgur.com/bmhKE7F.png);
     display: inline-block !important;
 }
-
+ 
 .co-owner span.user-role-icon {
     background-image: url(http://i.imgur.com/nYQpyNr.png);
     display: inline-block !important;
 }
-
+ 
 .manager span.user-role-icon {
     background-image: url(http://i.imgur.com/qhRyag9.png);
     display: inline-block !important;
 }
-
+ 
 .mod span.user-role-icon {
     background-image: url(http://i.imgur.com/n802hgl.png);
     display: inline-block !important;
@@ -331,16 +337,16 @@
     background-image: url(http://i.imgur.com/uEKIXeL.png);
     display: inline-block !important;
 }
-
+ 
 .resident-dj span.user-role-icon {
     background-image: url(http://i.imgur.com/y0Dfrfc.gif);
     display: inline-block !important;
 }
-
+ 
 #chat .chat-main .user-56005297239f1303009c88c5 .username {
     color: #4dc9ff !important;
 }
-
+ 
 /* Emote sizes */
 #chat .emoji {
     max-width: none !important;
@@ -348,21 +354,21 @@
     width: auto !important;
     height: auto !important;
 }
-
+ 
 /* me command fix */
 #chat .chat-container .chat-messages .chat-main li.system-error {
     text-transform: uppercase;
 }
-
+ 
 /* Info tab fixes */
 #room-info-display .room-info-display-wrapper h2 { margin-top: 1rem; margin-bottom: 2rem; font-size: 1.5rem; }
 #room-info-display .room-info-display-wrapper h2 span,
 #room-info-display .room-info-display-wrapper h2 span i {
     font-size: 1rem;
 }
-
+ 
 /* Kris aditions */
-
+ 
 #main_player .player_header span.skip-el {
     margin-right: 0;
 }
@@ -372,7 +378,7 @@
 #main-room .left_section {
     margin-top: 0rem;
 }
-
+ 
 /* Top bar */
 #header-global {
     background: linear-gradient(to bottom, rgba(20,20,20,0.66) 0%, rgba(20,20,20,0.66) 90%, rgba(20,20,20,0) 100%);
@@ -389,26 +395,26 @@
 #header-global .header-right-navigation .user-messages .message-counter {
     color: #fff;
 }
-
+ 
 @media screen and (min-width: 72em) { /* If not "phone mode" */
     #main-room #chat .chat-container .chat-messages { height: inherit; }
     #main-room #chat .chat-container, #chat { height: 100%; }
 }
-
+ 
 @media screen and (min-width: 72em) { /* If not "phone mode" */
     /* Main function */
     #main-room .left_section { padding: 0; margin-top: 49px !important;  }
     #main-room .left_section  .main-player-wrapper { display: initial; }
     #main_player { width: 100%; max-width: 35.6%; min-width: 450px; float: right; }
-
+ 
 }
 #main_player .player_header{border-radius:0 !important;}
-
-
+ 
+ 
 #browser .browser-content {
 float: right;
 }
-
+ 
 /* Video (Main player - right) */
     /* Header */
 #main_player {
@@ -459,7 +465,7 @@ float: right;
 #main-room .left_section {
     margin-top: 0rem;
 }
-
+ 
     /* Room info */
 #room-info-display .room-info-display-container h2 span i {
     color: #5A93CC;
@@ -474,17 +480,17 @@ float: right;
 #room-info-display .room-info-display-container .autolink:visited {
     color: #0063a6;
 }
-
+ 
     /* Mod controls */
 #main_player #mods-controllers .mod-controllers-headers a,
-#mods-controllers .mods-controllers-wrapper .mods-controllers-ban-list.show-controller .user-list li .actions, 
+#mods-controllers .mods-controllers-wrapper .mods-controllers-ban-list.show-controller .user-list li .actions,
 #mods-controllers .mods-controllers-wrapper .mods-controllers-mute-list.show-controller .user-list li .actions,
 #mods-controllers .mods-controllers-main-wrapper .mods-controllers-wrapper .mods-controllers-staff-list .user-list li .actions {
     color: #aaa;
 }
 #main_player #mods-controllers .mod-controllers-headers a:hover,
 #main_player #mods-controllers .mod-controllers-headers .active,
-#mods-controllers .mods-controllers-wrapper .mods-controllers-ban-list.show-controller .user-list li .actions:hover, 
+#mods-controllers .mods-controllers-wrapper .mods-controllers-ban-list.show-controller .user-list li .actions:hover,
 #mods-controllers .mods-controllers-wrapper .mods-controllers-mute-list.show-controller .user-list li .actions:hover,
 #mods-controllers .mods-controllers-main-wrapper .mods-controllers-wrapper .mods-controllers-staff-list .user-list li .actions:hover{
     color: #fff;
@@ -534,10 +540,10 @@ float: right;
 #mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers { top: 0; }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active { width: 50%; float: left; }
-
+ 
 /* Miscellaneous */
 #main_player .player_header span.display-queue::before { content: initial; }
-
+ 
 #chat .chat-main li[class*='system'] {
     color: darkturquoise !important;
     text-align: center;
