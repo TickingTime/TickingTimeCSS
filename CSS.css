@@ -173,6 +173,7 @@
     font-weight: 700;
     line-height: 1.2;
     color: #CD0000;
+
 }
 /* Never_Pause Chat Color and Stuff */
 #chat .chat-container ul.chat-main li.user-56d545a245f02ad6041a4317 .stream-item-content .activity-row .username:before {
@@ -188,14 +189,21 @@
     text-decoration: inherit;
     margin-right: 5px;
 }
+
+#chat .chat-main li.user-5607ef7e424a6203007d4fbe:not(.deleted-message) .activity-row .username::before {
+    content: "Maskinen";
+    font-weight: 700;
+    line-height: 1.2;
+    color: #CD0000;
  
+}
  
 /* Bugtrack header logo */
 .header-center-logo a {
     margin-top: 3.8px !important;
     width: 3rem !important;
     height: 3rem !important;
-    content: url('https://www.dubtrack.fm/assets/emoji/custom/bugtrack.svg?v=2.2.6.1');
+    content: url('http://i.imgur.com/c9bKR37.png');
 }
  
  
