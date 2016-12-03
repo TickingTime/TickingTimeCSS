@@ -127,15 +127,7 @@
 #mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers { top: 0; }
 #mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active { width: 50%; float: left; }
- 
-/* Miscellaneous */
-#main_player .player_header span.display-queue::before { content: initial; }
-#browser .content-videos{
-  background: /* Top layer */ url(http://i.imgur.com/0sxhBUn.png),
-                              /* Fore image */
-           /* Bottom layer */ url(http://i.imgur.com/SgXlhPl.png) center center/581px 775px no-repeat !important;
-                              /* Back image, position, size, repeat */
-}
+
 /* Import fixes */
 #chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: 0.01 !important; }
  
@@ -209,7 +201,7 @@
  
  
 /* Room size fix */
-#main-room { max-width: initial; padding: 3.5rem 0 3.6rem; }
+#main-room { max-width: initial; padding: 3.6rem 0 3.5rem 0; }
  
 /* Skip Button fix (thanks angel <3 ) */
 #main_player .player_header span.skip-el {
