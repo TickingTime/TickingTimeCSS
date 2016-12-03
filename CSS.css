@@ -216,9 +216,9 @@
     text-overflow: ellipsis ;
 }
    
-/* Welcome message in light blue */
+/* Welcome message in white */
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message {
-  color: lightblue !important;
+  color: white !important;
 }
  
 /* Custom Vote Icons */
@@ -242,7 +242,7 @@
     width: 1.5rem;
     height: 1.5rem;
 }
-/* NB3 Room Additions */
+/* KappCave Room Additions */
  
 /* name colours */
 #chat .chat-container .chat-messages .chat-main li.creator .user-role,
@@ -537,12 +537,7 @@ float: right;
 #main_player .player_sharing .player-controller-container .hideVideo-el span.icon-eye-unblocked:before {
     content: "\e90a";
 }
-   
-/* Mod tab fixes */
-#mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
-#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers { top: 0; }
-#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active { width: 50%; float: left; }
- 
+
 /* Miscellaneous */
 #main_player .player_header span.display-queue::before { content: initial; }
  
