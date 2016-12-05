@@ -422,7 +422,7 @@ float: right;
 #main_player {
     background: rgba(15,15,15,0.66);
     border-radius: 0;
-    border-top: 1px solid #878c8e;
+    border-top: 2px solid #878c8e;
 }
 #main_player .player_header {
     background: inherit;
