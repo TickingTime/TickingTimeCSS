@@ -204,17 +204,6 @@
 /* Room size fix */
 #main-room { max-width: initial; padding: 3.6rem 0 3.5rem 0; }
  
-/* Skip Button fix (thanks angel <3 ) */
-#main_player .player_header span.skip-el {
-    float: left;
-    margin: .125rem 0 ;
-    position: relative ;
-    padding: .5rem 0 .5rem .5rem !;
-    width: 73px !important;
-    border-radius: 1rem 0 0 1rem ;
-    overflow: hidden ;
-    text-overflow: ellipsis ;
-}
    
 /* Welcome message in white */
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message {
