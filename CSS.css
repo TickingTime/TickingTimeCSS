@@ -369,12 +369,18 @@
 #main-room .left_section {
     margin-top: 0rem;
 }
+
+/* Same color for everything on the room */
+#header-global,
+#main-room .right_section,
+#player-controller {
+	background-color: rgba(15, 15, 15, 0.66);
+}
+#player-controller .left {
+	background-color: rgba(0, 0, 0, 0);   
+}
  
 /* Top bar */
-#header-global {
-    background: linear-gradient(to bottom, rgba(20,20,20,0.66) 0%, rgba(20,20,20,0.66) 90%, rgba(20,20,20,0) 100%);
-    background: rgba(15,15,15,0.66);
-}
 #header-global .header-right-navigation .user-info span:hover,
 #header-global .header-right-navigation .user-messages:hover,
 #header-global .header-right-navigation .for:hover {
