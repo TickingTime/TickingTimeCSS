@@ -132,15 +132,17 @@
 #chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: 0.01 !important; }
  
 /* TickingTime Chat Colour and stuff */
-#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* TickingTime */ {
-    color: #8CDD81 !important;
-    text-shadow: 0px 0px 1px rgba(0,0,0,.5);
+LI.user-56d47266a3af139b0357f646 .username,
+#avatar-list LI.user-56698980850a4b130025abcc .username{
+  animation: 6.3s TickingTime" !important;
+   animation-iteration-count: infinite !Important;
+}
+LI.user-56d47266a3af139b0357f646 .username,
+#avatar-list LI.user-56d47266a3af139b0357f646 .username,
+#avatar-list LI.user-56d47266a3af139b0357f646 .username:after{
+  color: rgba(92, 135, 179, 0.50) !Important;
 }
  
-#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username:before /* TickingTime */ {
-    content: "ƬickingƬime"
-       
-}
 /* Netux Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username {
     color: rgba(0,0,0,0);
