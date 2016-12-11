@@ -130,7 +130,49 @@
 
 /* Import fixes */
 #chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: 0.01 !important; }
- 
+ /* animation settings */
+   /* TickingTime */
+@keyframes TickingTime{
+  0%{
+      text-shadow: 0px 0px 0px #d22;
+  }
+  8.34%{
+      text-shadow: 0px 0px 0px #d72;
+  }
+  16.67%{
+      text-shadow: 0px 0px 0px #dd2;
+  }
+  25%{
+      text-shadow: 0px 0px 0px #7d2;
+  }
+  33.34%{
+      text-shadow: 0px 0px 0px #2d2;
+  }
+  41.67%{
+      text-shadow: 0px 0px 0px #2d7;
+  }
+  50%{
+      text-shadow: 0px 0px 0px #2dd;
+  }
+  58.33%{
+      text-shadow: 0px 0px 0px #27d;
+  }
+  66.67%{
+      text-shadow: 0px 0px 0px #22d;
+  }
+  75%{
+      text-shadow: 0px 0px 0px #72d;
+  }
+  83.33%{
+      text-shadow: 0px 0px 0px #d2d;
+  }
+  91.67%{
+      text-shadow: 0px 0px 0px #d27;
+  }
+  100%{
+      text-shadow: 0px 0px 0px #d22;
+  }
+}
 /* TickingTime Chat Colour and stuff */
 LI.user-56d47266a3af139b0357f646 .username,
 #avatar-list LI.user-56698980850a4b130025abcc .username{
