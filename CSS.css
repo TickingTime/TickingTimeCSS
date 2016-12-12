@@ -176,7 +176,7 @@
 /* TickingTime Chat Colour and stuff */
 LI.user-56d47266a3af139b0357f646 .username,
 #avatar-list LI.user-56698980850a4b130025abcc .username{
-  animation: 6.3s TickingTime" !important;
+  animation: 6.3s TickingTime !important;
    animation-iteration-count: infinite !Important;
 }
 LI.user-56d47266a3af139b0357f646 .username,
@@ -210,7 +210,6 @@ LI.user-56d47266a3af139b0357f646 .username,
     font-weight: 700;
     line-height: 1.2;
     color: #CD0000;
-
 }
 /* Never_Pause Chat Color and Stuff */
 #chat .chat-container ul.chat-main li.user-56d545a245f02ad6041a4317 .stream-item-content .activity-row .username:before {
@@ -226,7 +225,6 @@ LI.user-56d47266a3af139b0357f646 .username,
     text-decoration: inherit;
     margin-right: 5px;
 }
-
 #chat .chat-main li.user-5607ef7e424a6203007d4fbe:not(.deleted-message) .activity-row .username::before {
     content: "Maskinen";
     font-weight: 700;
@@ -412,7 +410,6 @@ LI.user-56d47266a3af139b0357f646 .username,
 #main-room .left_section {
     margin-top: 0rem;
 }
-
 /* Same color for everything on the room */
 #header-global,
 #main-room .right_section,
@@ -575,7 +572,6 @@ float: right;
 #main_player .player_sharing .player-controller-container .hideVideo-el span.icon-eye-unblocked:before {
     content: "\e90a";
 }
-
 /* Miscellaneous */
 #main_player .player_header span.display-queue::before { content: initial; }
  
