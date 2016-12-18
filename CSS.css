@@ -5,7 +5,6 @@
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders and progress bars */
 @import url("https://github.netux.ml/css/skynet.css"); /* Better recognizable Room BOTs */
 @import url("https://github.netux.ml/css/animations.css"); /* Pack of animations */
-@import url("https://github.netux.ml/css/fixesnetux.css"); /* Netux Fixes */
  
 /* Small video (without buttons fix) from https://github.netux.ml/css/videosmall.css */
 @media screen and (min-width: 72em) { /* If not "phone mode" */
@@ -371,7 +370,7 @@ LI.user-56d47266a3af139b0357f646 .username,
 }
  
 .resident-dj span.user-role-icon {
-    background-image: url(http://i.imgur.com/4F8QMB0.gif);
+    background-image: url(http://i.imgur.com/dY4PA5I.png);
     display: inline-block !important;
 }
  
