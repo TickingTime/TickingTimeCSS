@@ -319,7 +319,7 @@ LI.user-56d47266a3af139b0357f646 .username,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username
 {
-    color: #37FDFC;
+    color: #46DBE4;
 }
  
 #chat .chat-container .chat-messages .chat-main li.admin .user-role,
@@ -367,15 +367,6 @@ LI.user-56d47266a3af139b0357f646 .username,
 .vip span.user-role-icon {
     background-image: url(http://i.imgur.com/uEKIXeL.png);
     display: inline-block !important;
-}
- 
-.resident-dj span.user-role-icon {
-    background-image: url(http://i.imgur.com/kUZ7E2w.png);
-    display: inline-block !important;
-}
- 
-#chat .chat-main .user-56005297239f1303009c88c5 .username {
-    color: #4dc9ff !important;
 }
  
 /* Emote sizes */
