@@ -242,7 +242,11 @@ LI.user-56d47266a3af139b0357f646 .username,
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message {
   color: white !important;
 }
- 
+
+/* Custom @mention color */
+.username-handle.mentioned { color: #E3170D !important;  }
+}
+
 /* Custom Vote Icons */
 #player-controller .right ul li .dub-counter,
 #player-controller .right ul li .grab-counter
