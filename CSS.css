@@ -405,6 +405,10 @@ LI.user-56d47266a3af139b0357f646 .username,
 	background-color: rgba(0, 0, 0, 0);   
 }
  
+#player-controller .right { 
+	background-color: rgba(15, 15, 15, 0.66);
+}
+
 /* Top bar */
 #header-global .header-right-navigation .user-info span:hover,
 #header-global .header-right-navigation .user-messages:hover,
