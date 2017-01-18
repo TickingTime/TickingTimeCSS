@@ -192,7 +192,18 @@ LI.user-56d47266a3af139b0357f646 .username,
     left: 0;
     visibility: visible;
 } 
-
+/* Mrlancaster Chat Color and Stuff */
+#chat .chat-container .chat-messages .chat-main li.user-580008b9e0e5943800c251f0 .activity-row .username .user-role {
+    position: relative;
+    visibility: hidden;   
+}
+#chat .chat-container .chat-messages .chat-main li.user-580008b9e0e5943800c251f0 .activity-row .username .user-role::before {
+    content: "Tomas";
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
 /* Netux Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username {
     color: rgba(0,0,0,0);
@@ -206,6 +217,18 @@ LI.user-56d47266a3af139b0357f646 .username,
     line-height: 1.2;
     color: #FF7E00;
 }
+#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username .user-role { /* <--- SELECTOR */
+    position: relative;
+    visibility: hidden;   
+}
+#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username .user-role::before { /* <--- SELECTOR, similar to first one but with `::before` after it */
+    content: "Martin";
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+
 /* Dreken Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-542dca96d5fb6a0200b3a298 .activity-row .username {
     color: rgba(0,0,0,0);
