@@ -181,7 +181,18 @@ LI.user-56d47266a3af139b0357f646 .username,
 #avatar-list LI.user-56d47266a3af139b0357f646 .username:after{
   color: rgba(92, 135, 179, 0.50) !Important;
 }
- 
+#chat .chat-container .chat-messages .chat-main li.user-56d47266a3af139b0357f646 .activity-row .username .user-role {
+    position: relative;
+    visibility: hidden;   
+}
+#chat .chat-container .chat-messages .chat-main li.user-56d47266a3af139b0357f646 .activity-row .username .user-role::before {
+    content: "James";
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+} 
+
 /* Netux Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username {
     color: rgba(0,0,0,0);
