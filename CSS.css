@@ -205,23 +205,13 @@ LI.user-56d47266a3af139b0357f646 .username,
     visibility: visible;
 }
 /* Netux Chat Color and Stuff */
-#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username {
-    color: rgba(0,0,0,0);
-}
-#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username > * {
-    display: none !important;
-}
-#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .username::before {
-    content: "ŋetux";
-    font-weight: 700;
-    line-height: 1.2;
-    color: #FF7E00;
-}
-#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username .user-role { /* <--- SELECTOR */
+#chat .chat-container ul.chat-main li.user-560b4a33d9057a0300cc2fa0 .stream-item-content .activity-row .username /* netux */ { color:#FF9900 !important;  }
+
+#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username .user-role {
     position: relative;
     visibility: hidden;   
 }
-#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username .user-role::before { /* <--- SELECTOR, similar to first one but with `::before` after it */
+#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username .user-role::before {
     content: "Martin";
     position: absolute;
     top: 0;
