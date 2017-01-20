@@ -25,7 +25,6 @@
 #chat .chat-container ul.chat-main li.user-56bcab3a6d969f1d0098a158 .stream-item-content .activity-row .username /* satananas */ { color:#61B329 !important;  }
 #chat .chat-container ul.chat-main li.user-579143710581f82a00263624 .stream-item-content .activity-row .username /* lord_erazor */ { color:#8B0000 !important;  }
 #chat .chat-container ul.chat-main li.user-567a5cfd1b5cc31d00596518 .stream-item-content .activity-row .username /* suzukin  */ { color:#7ec0ee !important;  }
-#chat .chat-container ul.chat-main li.user-57a754a90d8c094700810329 .stream-item-content .activity-row .username /* kajen */ { color: #3838b5  !important;  }
 #chat .chat-container ul.chat-main li.user-57cad451eefc48690074d4cd .stream-item-content .activity-row .username /* therealneko */ { color: #4DBD33 !important;  }
 #chat .chat-container ul.chat-main li.user-5700387c65113f5f00f07b1f .stream-item-content .activity-row .username /* tracerwannabe */ { color: #0276FD !important;  }
 #chat .chat-container ul.chat-main li.user-566d9dd049628d1900be79ba .stream-item-content .activity-row .username /* shifty */ { color: #05B8CC !important;  }
@@ -212,6 +211,21 @@ LI.user-56d47266a3af139b0357f646 .username,
 }
 #chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username .user-role::before {
     content: "Martin";
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+/* Kajen chat color and stuff */
+#chat .chat-container ul.chat-main li.user-57a754a90d8c094700810329 .stream-item-content .activity-row .username /* kajen */ { color: #3838b5  !important;  }
+
+
+#chat .chat-container .chat-messages .chat-main li.user-57a754a90d8c094700810329 .activity-row .username .user-role {
+    position: relative;
+    visibility: hidden;   
+}
+#chat .chat-container .chat-messages .chat-main li.user-57a754a90d8c094700810329 .activity-row .username .user-role::before {
+    content: "Sanders";
     position: absolute;
     top: 0;
     left: 0;
