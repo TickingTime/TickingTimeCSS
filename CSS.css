@@ -245,6 +245,20 @@ LI.user-56d47266a3af139b0357f646 .username,
     line-height: 1.2;
     color: #CD0000;
 }
+/* jetman640 chat color and stuff */
+li[class*="577db65440d9004200bd3d5d"] .image_row:before {
+    content: "";
+    background: url(https://cdn.betterttv.net/emote/58017bcc8faabf4b3d008456/2x);
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 101%;
+    height: 127%;
+    position: absolute;
+    left: 0% !important;
+    top: -13px;
+    overflow: visible;
+}
+
 /* Never_Pause Chat Color and Stuff */
 #chat .chat-container ul.chat-main li.user-56d545a245f02ad6041a4317 .stream-item-content .activity-row .username:before {
     content: "\f192";
