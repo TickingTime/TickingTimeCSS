@@ -274,6 +274,19 @@ li[class*="577db65440d9004200bd3d5d"] .image_row:before {
     margin-right: 5px;
 }
  
+/* Mrlancaster Chat Color and Stuff */
+#chat .chat-container .chat-messages .chat-main li.user-5818d381f179286f00a5344f .activity-row .username .user-role {
+    position: relative;
+    visibility: hidden;   
+}
+#chat .chat-container .chat-messages .chat-main li.user-5818d381f179286f00a5344f .activity-row .username .user-role::before {
+    content: "Andy";
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+
 /* Bugtrack header logo */
 .header-center-logo a {
     margin-top: 3.8px !important;
