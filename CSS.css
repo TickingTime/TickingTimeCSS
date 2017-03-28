@@ -22,7 +22,6 @@
 #chat .chat-container ul.chat-main li.user-569d6f9289d6541900324f23 .stream-item-content .activity-row .username /* vipture */ { color:#EFD13B !important;  }
 #chat .chat-container ul.chat-main li.user-56d545a245f02ad6041a4317 .stream-item-content .activity-row .username /* never_pause */ { color:#1464F4 !important;  }
 #chat .chat-container ul.chat-main li.user-56cb6b73e85e1f1c0170f10a .stream-item-content .activity-row .username /* angeloidikaros */ { color:#DDA0DD !important;  }
-#chat .chat-container ul.chat-main li.user-56bcab3a6d969f1d0098a158 .stream-item-content .activity-row .username /* satananas */ { color:#61B329 !important;  }
 #chat .chat-container ul.chat-main li.user-579143710581f82a00263624 .stream-item-content .activity-row .username /* lord_erazor */ { color:#8B0000 !important;  }
 #chat .chat-container ul.chat-main li.user-567a5cfd1b5cc31d00596518 .stream-item-content .activity-row .username /* suzukin  */ { color:#7ec0ee !important;  }
 #chat .chat-container ul.chat-main li.user-57cad451eefc48690074d4cd .stream-item-content .activity-row .username /* therealneko */ { color: #4DBD33 !important;  }
@@ -125,60 +124,9 @@
 
 /* Import fixes */
 #chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: 0.01 !important; }
- /* animation settings */
-   /* TickingTime */
-@keyframes James{
-  0%{
-      text-shadow: 0px 0px 0px #d22;
-  }
-  8.34%{
-      text-shadow: 0px 0px 0px #d72;
-  }
-  16.67%{
-      text-shadow: 0px 0px 0px #dd2;
-  }
-  25%{
-      text-shadow: 0px 0px 0px #7d2;
-  }
-  33.34%{
-      text-shadow: 0px 0px 0px #2d2;
-  }
-  41.67%{
-      text-shadow: 0px 0px 0px #2d7;
-  }
-  50%{
-      text-shadow: 0px 0px 0px #2dd;
-  }
-  58.33%{
-      text-shadow: 0px 0px 0px #27d;
-  }
-  66.67%{
-      text-shadow: 0px 0px 0px #22d;
-  }
-  75%{
-      text-shadow: 0px 0px 0px #72d;
-  }
-  83.33%{
-      text-shadow: 0px 0px 0px #d2d;
-  }
-  91.67%{
-      text-shadow: 0px 0px 0px #d27;
-  }
-  100%{
-      text-shadow: 0px 0px 0px #d22;
-  }
-}
-/* TickingTime Chat Colour and stuff */
-LI.user-56d47266a3af139b0357f646 .username,
-#avatar-list LI.user-56698980850a4b130025abcc .username{
-  animation: 6.3s James !important;
-   animation-iteration-count: infinite !Important;
-}
-LI.user-56d47266a3af139b0357f646 .username,
-#avatar-list LI.user-56d47266a3af139b0357f646 .username,
-#avatar-list LI.user-56d47266a3af139b0357f646 .username:after{
-  color: rgba(92, 135, 179, 0.50) !Important;
-}
+/* James Chat color and stuff */
+#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* TickingTime */ { color:#61B329 !important;  }
+
 #chat .chat-container .chat-messages .chat-main li.user-56d47266a3af139b0357f646 .activity-row .username .user-role {
     position: relative;
     visibility: hidden;   
