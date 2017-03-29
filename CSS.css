@@ -124,8 +124,9 @@
 
 /* Import fixes */
 #chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: 0.01 !important; }
+
 /* James Chat color and stuff */
-#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* TickingTime */ { color:#61B329 !important;  }
+#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* TickingTime */ { color:#BCED91 !important;  }
 
 #chat .chat-container .chat-messages .chat-main li.user-56d47266a3af139b0357f646 .activity-row .username .user-role {
     position: relative;
