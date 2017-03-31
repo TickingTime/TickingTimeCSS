@@ -139,6 +139,20 @@
     visibility: visible;
 } 
 /* Mrlancaster Chat Color and Stuff */
+#chat .chat-container .chat-messages .chat-main li.user-560b18f88b4f900300cc6c06 .activity-row .username .user-role {
+    position: relative;
+    visibility: hidden;   
+}
+#chat .chat-container .chat-messages .chat-main li.user-560b18f88b4f900300cc6c06 .activity-row .username .user-role::before {
+    content: "Devon";
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+
+
+/* Mrlancaster Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-580008b9e0e5943800c251f0 .activity-row .username .user-role {
     position: relative;
     visibility: hidden;   
