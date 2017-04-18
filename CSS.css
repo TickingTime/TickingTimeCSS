@@ -138,7 +138,7 @@
     left: 0;
     visibility: visible;
 } 
-/* Mrlancaster Chat Color and Stuff */
+/* Slyfox Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-560b18f88b4f900300cc6c06 .activity-row .username .user-role {
     position: relative;
     visibility: hidden;   
@@ -220,21 +220,6 @@ li[class*="577db65440d9004200bd3d5d"] .image_row:before {
     top: -13px;
     overflow: visible;
 }
-
-/* Never_Pause Chat Color and Stuff */
-#chat .chat-container ul.chat-main li.user-56d545a245f02ad6041a4317 .stream-item-content .activity-row .username:before {
-    content: "\f192";
-    font-family: "foundation-icons";
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    text-decoration: inherit;
-    margin-right: 5px;
-}
  
 /* Mrlancaster Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-5818d381f179286f00a5344f .activity-row .username .user-role {
@@ -279,7 +264,40 @@ li[class*="577db65440d9004200bd3d5d"] .image_row:before {
 #player-controller .right ul li .icon-heart::before { content: url('http://i.imgur.com/CtKu2gz.png'); }
 #player-controller .right ul li .dubup .icon-upvote::before { content: url('http://i.imgur.com/KWxxNGv.png'); }
 #player-controller .right ul li .dubdown .icon-downvote::before { content: url('http://i.imgur.com/bxJufat.png'); }
- 
+
+#player-controller .right ul li .add-to-playlist-button.grabbed, #player-controller .right ul li .add-to-playlist-button.voted, #player-controller .right ul li .dubdown.grabbed, #player-controller .right ul li .dubdown.voted {
+    background: rgb(216, 10, 0.19)
+}
+
+#player-controller .right ul li .dubup.voted {
+    background: rgba(0, 255, 80, 0.27)
+}
+
+#player-controller .right ul li .add-to-playlist-button.grabbed, #player-controller .right ul li .add-to-playlist-button.voted, #player-controller .right ul li .dubdown.grabbed, #player-controller .right ul li .dubdown.voted {
+    background: rgba(230, 33, 23, 0.19)
+}
+
+#player-controller .right ul li .add-to-playlist-button.grabbed, #player-controller .right ul li .add-to-playlist-button.voted, #player-controller .right ul li .dubdown.grabbed, #player-controller .right ul li .dubdown.voted {
+    background: rgba(22, 122, 198, 0.19)
+}
+
+/* Custom progress bar color */
+
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
+    background color: #FFF
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
+    background: #13e254;
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
+    background: #13e254;
+}
+/* Green mail */
+
+#header-global .header-right-navigation .user-messages .message-counter {
+    background: rgb(19, 226, 84);
+}
+
 /* hebgbs fixes */
 #player-controller .right ul li:nth-child(n+2):nth-child(n-5){ position: relative; top: -4px !Important; }
  
