@@ -459,12 +459,7 @@ li[class*="577db65440d9004200bd3d5d"] .image_row:before {
 #header-global .header-right-navigation .for:hover {
     color: #fff;
 }
-#header-global .header-right-navigation .user-messages .message-counter {
-    background: #CC5A93;
-}
-#header-global .header-right-navigation .user-messages .message-counter {
-    color: #fff;
-}
+
  
 @media screen and (min-width: 72em) { /* If not "phone mode" */
     #main-room #chat .chat-container .chat-messages { height: inherit; }
@@ -592,12 +587,6 @@ float: right;
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
     background: #aaa;
-}
-#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min {
-    background: #5A93CC;
-}
-#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle:hover {
-    background: #fff;
 }
 #main_player .player_sharing .player-controller-container .hideVideo-el span.icon-eye-blocked:before {
     content: "\e90b";
