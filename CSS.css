@@ -254,7 +254,6 @@ li[class*="577db65440d9004200bd3d5d"] .image_row:before {
 
 /* Custom @mention color */
 .username-handle.mentioned { color: #0198E1 !important;  }
-}
 
 /* Custom Vote Icons */
 #player-controller .right ul li .dub-counter,
@@ -284,7 +283,7 @@ li[class*="577db65440d9004200bd3d5d"] .image_row:before {
 /* Custom progress bar color */
 
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
-    background color: #FFF
+    background: color #FFF
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
     background: #13e254;
@@ -292,6 +291,7 @@ li[class*="577db65440d9004200bd3d5d"] .image_row:before {
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
     background: #13e254;
 }
+
 /* Green mail */
 
 #header-global .header-right-navigation .user-messages .message-counter {
@@ -307,8 +307,6 @@ li[class*="577db65440d9004200bd3d5d"] .image_row:before {
     display: inline;
     position: absolute;
     background-size: cover;
-    width: 1.5rem;
-    height: 1.5rem;
 }
 /* KappCave Room Additions */
  
