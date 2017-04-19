@@ -151,7 +151,6 @@
     visibility: visible;
 }
 
-
 /* Mrlancaster Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-580008b9e0e5943800c251f0 .activity-row .username .user-role {
     position: relative;
@@ -206,19 +205,6 @@
     font-weight: 700;
     line-height: 1.2;
     color: #CD0000;
-}
-/* jetman640 chat color and stuff */
-li[class*="577db65440d9004200bd3d5d"] .image_row:before {
-    content: "";
-    background: url(https://cdn.betterttv.net/emote/58017bcc8faabf4b3d008456/2x);
-    background-size: 100% 100%;
-    display: inline-block;
-    width: 101%;
-    height: 127%;
-    position: absolute;
-    left: 0% !important;
-    top: -13px;
-    overflow: visible;
 }
  
 /* Mrlancaster Chat Color and Stuff */
@@ -283,13 +269,13 @@ li[class*="577db65440d9004200bd3d5d"] .image_row:before {
 /* Custom progress bar color */
 
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
-    background: color #FFF
+    background: color #fff
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
     background: #13e254;
 }
-#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
-    background: #13e254;
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min {
+    background: #ffffff
 }
 
 /* Green mail */
@@ -308,7 +294,7 @@ li[class*="577db65440d9004200bd3d5d"] .image_row:before {
     position: absolute;
     background-size: cover;
 }
-/* KappCave Room Additions */
+/* Horizon Room Additions */
  
 /* name colours */
 #chat .chat-container .chat-messages .chat-main li.creator .user-role,
