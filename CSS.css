@@ -250,26 +250,21 @@
 #player-controller .right ul li .dubup .icon-upvote::before { content: url('http://i.imgur.com/KWxxNGv.png'); }
 #player-controller .right ul li .dubdown .icon-downvote::before { content: url('http://i.imgur.com/bxJufat.png'); }
 
-#player-controller .right ul li .add-to-playlist-button.grabbed, #player-controller .right ul li .add-to-playlist-button.voted, #player-controller .right ul li .dubdown.grabbed, #player-controller .right ul li .dubdown.voted {
-    background: rgb(216, 10, 0.19)
-}
-
 #player-controller .right ul li .dubup.voted {
     background: rgba(0, 255, 80, 0.27)
 }
 
-#player-controller .right ul li .add-to-playlist-button.grabbed, #player-controller .right ul li .add-to-playlist-button.voted, #player-controller .right ul li .dubdown.grabbed, #player-controller .right ul li .dubdown.voted {
-    background: rgba(230, 33, 23, 0.19)
+#player-controller .right ul li .dubup.voted {
+background: rgba(22, 122, 198, 0.19)
 }
-
 #player-controller .right ul li .add-to-playlist-button.grabbed, #player-controller .right ul li .add-to-playlist-button.voted, #player-controller .right ul li .dubdown.grabbed, #player-controller .right ul li .dubdown.voted {
-    background: rgba(22, 122, 198, 0.19)
-}
+    background: rgba(230, 33, 23, 0.19);
+}}
 
 /* Custom progress bar color */
 
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
-    background: color #fff
+    background: color #ffffff
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
     background: #13e254;
