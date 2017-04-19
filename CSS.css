@@ -257,15 +257,17 @@
 #player-controller .right ul li .dubdown.voted {
     background: rgba(230, 33, 23, 0.19)
 }
-#player-controller .right ul li .add-to-playlist-button.grabbed, #player-controller .right ul li .add-to-playlist-button.voted, #player-controller .right ul li .dubdown.grabbed, #player-controller .right ul li .dubdown.voted{
-    background: rgba(230, 33, 23, 0.19)
+#player-controller .right ul li .add-to-playlist-button.grabbed
+    background: rgba(23, 143, 230, 0.19
 	   
 
 }
 /* Custom progress bar color */
-
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div{
+background: #ffffff;
+}
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
-    background: color #ffffff
+    background: #ffffff
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
     background: #13e254;
