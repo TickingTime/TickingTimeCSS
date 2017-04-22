@@ -273,8 +273,8 @@ background: #ffffff;
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
     background: #13e254;
 }
-#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div {
-    background: rgba(255, 255, 255, 0.27)
+#volume-div .ui-slider-range-min {
+background: rgba(255, 255, 255, 0.27)
 }
 
 /* Green mail */
