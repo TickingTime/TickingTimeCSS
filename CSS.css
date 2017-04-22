@@ -55,6 +55,9 @@
     margin: auto;
     border-radius: 10%;
 }
+/* No queue buttons */
+#main_player .play-song-link-container .play-song-link.active-queue-display { display: none; }
+
 /* Profile fixes */
 #profileMainSection { top: 3.4rem; min-height: initial; height: calc(100vh - 6.9rem); overflow-y: auto; }
 #profileMainSection .profileWrapper { margin-top: 3rem; }
