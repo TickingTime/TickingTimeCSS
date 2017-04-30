@@ -157,11 +157,11 @@
 }
 
 /* Lord_eRazor Color and Stuff */
-#chat .chat-container .chat-messages .chat-main li.user-579143710581f82a00263624.activity-row .username .user-role {
+#chat .chat-container .chat-messages .chat-main li.user-579143710581f82a00263624 .activity-row .username .user-role {
     position: relative;
     visibility: hidden;   
 }
-#chat .chat-container .chat-messages .chat-main li.user-579143710581f82a00263624.activity-row .username .user-role::before {
+#chat .chat-container .chat-messages .chat-main li.user-579143710581f82a00263624 .activity-row .username .user-role::before {
     content: "Gustav";
     position: absolute;
     top: 0;
