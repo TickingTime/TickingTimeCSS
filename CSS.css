@@ -59,6 +59,105 @@
 /* No queue buttons */
 #main_player .play-song-link-container .play-song-link.active-queue-display { display: none; }
 #main_player .play-song-link-container { display: none; }
+/* Queue revamp */
+
+#player-controller {
+    /*background: linear-gradient(to top, rgba(20,20,20,0.5) 0%, rgba(20,20,20,0.25) 60%, rgba(20,20,20,0) 100%);*/
+    background: rgba(15,15,15,0.42);
+}
+#player-controller .left {
+    /*background: linear-gradient(to top, rgba(20,20,20,0.5) 0%, rgba(20,20,20,0.30) 60%, rgba(20,20,20,0) 100%);*/
+    background: rgba(15,15,15,0.42);
+}
+#player-controller .right {
+    background: rgba(0,0,0,0);
+}
+#player-controller .left ul li.imgEl {
+    cursor: pointer;
+}
+#player-controller .imgEl img {
+    border-radius: 100%;
+    margin: 5px;
+    max-width: 83%;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner {
+    padding: .5rem 5rem .5rem 1rem;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
+    color: #888;
+    font-size: .95rem;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner .currentTime,
+#player-controller .left ul li.infoContainer .infoContainerInner .currentSong {
+    color: #ddd;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
+    background: #5A93CC;
+    border-radius: 1rem;
+    left: 1rem;
+}
+#player-controller .right ul li a.dubup:hover,
+#player-controller .right ul li a.dubup.voted,
+#player-controller .right ul li a.dubdown:hover,
+#player-controller .right ul li a.dubdown.voted,
+#player-controller .right ul li a.add-to-playlist-button.grabbed {
+    background: rgba(0,0,0,0);
+}
+#player-controller .right ul li a.dubup.voted span,
+#player-controller .right ul li a.dubup:hover:not(.voted) .icon-arrow-up {
+    color: #93CC5A;
+}
+#player-controller .right ul li a,
+#player-controller .right ul li a.dubup:hover:not(.voted) span,
+#player-controller .right ul li a.dubup .icon-arrow-up,
+#player-controller .right ul li a.dubdown:hover:not(.voted) span,
+#player-controller .right ul li a.dubdown .icon-arrow-down,
+#player-controller .right ul li a.add-to-playlist-button.grabbed span,
+#player-controller .right ul li a.add-to-playlist-button:hover span,
+#player-controller .right ul li a span.icon-heart:before {
+    color: #ccc;
+}
+#player-controller .right ul li a.dubdown.voted span,
+#player-controller .right ul li a.dubdown:hover:not(.voted) .icon-arrow-down {
+    color: #FF4060;
+}
+#player-controller .right ul li a:hover span.icon-heart:before,
+#player-controller .right ul li a.add-to-playlist-button.grabbed span,
+#player-controller .right ul li a.add-to-playlist-button.grabbed .icon-heart:before {
+    color: #CC5A93;
+}
+#player-controller .right ul li .display-browser:hover .icon-playlist {
+    color: #5A93CC;
+}
+
+
+/* Right side menu */
+#private-messages .loading {
+    background: rgba(50,50,50,1);
+    color: #eee;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+#private-messages .main-message-list, 
+#private-messages .message-details {
+    background: linear-gradient(to bottom, rgba(15,15,15,0.75) 0%, rgba(30,30,30,0.95) 10%, rgba(15,15,15,0.95) 90%, rgba(15,15,15,0.66) 100%);
+}
+#main-menu-right .close-menu {
+    background: linear-gradient(to bottom, rgba(25,25,25,1) 0%, rgba(25,25,25,1) 175%);
+}
+#main-menu-right .close-menu:hover span {
+    color: #fff;
+}
+#main-menu-right .close-menu .icon-close {
+    padding: 0 0 0 2px;
+    color: #aaa;
+}
+#main-menu-right .close-menu .icon-close:before {
+    content: "\e800";
+    line-height: 1.9;
+    font-size: 20px;
+    padding-left: 1px;
+}
 
 /* Profile fixes */
 #profileMainSection { top: 3.4rem; min-height: initial; height: calc(100vh - 6.9rem); overflow-y: auto; }
