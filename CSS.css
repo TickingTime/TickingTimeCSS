@@ -318,23 +318,42 @@
 #player-controller .right ul li .dub-counter,
 #player-controller .right ul li .grab-counter
 { position: relative; top: -.35em; }
- 
+
+#player-controller .right ul li a.dubup:hover,
+ #player-controller .right ul li a.dubup.voted,
+ #player-controller .right ul li a.dubdown:hover,
+ #player-controller .right ul li a.dubdown.voted,
+ #player-controller .right ul li a.add-to-playlist-button.grabbed {
+    background: rgba(0,0,0,0);
+ }
+ #player-controller .right ul li a.dubup.voted span,
+ #player-controller .right ul li a.dubup:hover:not(.voted) .icon-arrow-up {
+   color: #93CC5A;
+ }
+ #player-controller .right ul li a,
+ #player-controller .right ul li a.dubup:hover:not(.voted) span,
+ #player-controller .right ul li a.dubup .icon-arrow-up,
+ #player-controller .right ul li a.dubdown:hover:not(.voted) span,
+ #player-controller .right ul li a.dubdown .icon-arrow-down,
+ #player-controller .right ul li a.add-to-playlist-button.grabbed span,
+ -#player-controller .right ul li a.add-to-playlist-button:hover span,
+ -#player-controller .right ul li a span.icon-heart:before {
+     color: #ccc;
+ -}
+ #player-controller .right ul li a.dubdown.voted span,
+ #player-controller .right ul li a.dubdown:hover:not(.voted) .icon-arrow-down {
+    color: #FF4060;
+ }
+ #player-controller .right ul li a.add-to-playlist-button.grabbed span,
+ #player-controller .right ul li a.add-to-playlist-button.grabbed .icon-heart:before {
+    color: #CC5A93;
+ }
+ #player-controller .right ul li .display-browser:hover .icon-playlist {
+     color: #5A93CC;
+}
 #player-controller .right ul li .icon-heart::before { content: url('http://i.imgur.com/CtKu2gz.png'); }
 #player-controller .right ul li .dubup .icon-upvote::before { content: url('http://i.imgur.com/KWxxNGv.png'); }
 #player-controller .right ul li .dubdown .icon-downvote::before { content: url('http://i.imgur.com/bxJufat.png'); }
-
-#player-controller .right ul li .dubup.voted {
-    background: rgba(0, 255, 80, 0.27)
-}
-
-#player-controller .right ul li .dubdown.voted {
-    background: rgba(230, 33, 23, 0.19)
-}
-#player-controller .right ul li .add-to-playlist-button.grabbed{
-    background: rgba(23, 143, 230, 0.19)
-}
-	   
-
 
 /* Custom progress bar color */
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div{
