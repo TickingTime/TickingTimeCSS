@@ -9,7 +9,7 @@
     #main-room .left_section { padding: 0; margin-top: 0; }
     #main-room .left_section  .main-player-wrapper { display: initial; }
     #browser { padding-right: 450px; }
-
+    #main_player .player_header { overflow:hidden }	
 }
  
 /* Special people colors */
