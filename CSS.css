@@ -210,6 +210,20 @@
     left: 0;
     visibility: visible;
 }
+/* 0bliging chat color and stuff */
+#chat .chat-container ul.chat-main li.user-561b28b220262c13006c2ea8 .stream-item-content .activity-row .username { color: #007f7f !important;  } 
+
+#chat .chat-container .chat-messages .chat-main li.user-561b28b220262c13006c2ea8 .activity-row .username .user-role {
+    position: relative;
+    visibility: hidden;   
+}
+#chat .chat-container .chat-messages .chat-main li.user-561b28b220262c13006c2ea8 .activity-row .username .user-role::before {
+    content: "Rolando";
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
 
 /* Juunix Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-578fb952d72db16f00aabecc .activity-row .username .user-role {
