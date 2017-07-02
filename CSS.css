@@ -540,13 +540,6 @@ background: rgba(255, 255, 255, 0.27)
 #player-controller {
 	background-color: rgba(15, 15, 15, 0.66);
 }
-#player-controller .left {
-	background-color: rgba(0, 0, 0, 0);   
-}
- 
-#player-controller .right { 
-	background-color: rgba(15, 15, 15, 0.66);
-}
 
 /* Top bar */
 #header-global .header-right-navigation .user-info span:hover,
