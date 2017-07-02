@@ -46,7 +46,13 @@
     text-transform: uppercase;
 }
 #chat .pusher-chat-widget-input p::after { content: " ( Congrats... )"; text-transform: none; }
- 
+ /* Same color Vote bar */
+player-controller {background-color: rgba(0, 0, 0, 0)
+}
+#player-controller .global {background-color: rgba(15, 15, 15, 0.66)}
+#player-controller .right {background-color:rgba(26,26,26,.0) 
+}
+
 /* Chat avatars fix */
 #chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row { border-radius: 10%; }
 #chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row > img {
