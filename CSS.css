@@ -46,12 +46,13 @@
     text-transform: uppercase;
 }
 #chat .pusher-chat-widget-input p::after { content: " ( Congrats... )"; text-transform: none; }
- /* Same color Vote bar */
-player-controller {background-color: rgba(0, 0, 0, 0)
-}
-#player-controller .global {background-color: rgba(15, 15, 15, 0.66)}
-#player-controller .right {background-color:rgba(26,26,26,.0) 
-}
+ 
+/* Same color Vote bar */
+#player-controller .right {background-color:rgba(26,26,26,.0)  }
+	#player-controller.right { background-color: rgba(15, 15, 15, 0.66);}
+	#player-controller .left {background-color: rgba(0, 0, 0, 0);   }
+	#player-controller .right {background-color:rgba(26,26,26,.0) }
+
 
 /* Chat avatars fix */
 #chat .chat-container .chat-messages .chat-main li .stream-item-content .image_row { border-radius: 10%; }
@@ -115,19 +116,7 @@ player-controller {background-color: rgba(0, 0, 0, 0)
 /* Soundcloud player fixes */
 #room-main-player-container-soundcloud { background-color: #111111; cursor: default; }
 #main_player .player_container #room-main-player-container .playerElement.soundcloud img { pointer-events: none; }
- 
-/* ETA fixes (DubX) */
-.eta_tooltip, .snooze_tooltip { border-top-right-radius: 0 !important; transform: translateX(-7px); }
-.eta_tooltip::before, .snooze_tooltip::before {
-    content: "";
-    position: absolute;
-    left: calc(100% - 8px);
-    bottom: calc(100% - 15px / 1.5);
-    transform: rotate(45deg);
-    border: 8px solid transparent;
-    border-bottom: 15px solid white;
-}
- 
+
 /* Video next to chat */
 @media screen and (min-width: 72em) {
     #main-room .left_section { left: initial; right: 450px; }
