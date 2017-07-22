@@ -13,6 +13,8 @@
 }
  
 /* Special people colors */
+
+#chat .chat-container ul.chat-main li.user-576ef999878c8838000ceff1 .stream-item-content .activity-row .username /* -ruthless */ { color:#91182e !important;  }
 #chat .chat-container ul.chat-main li.user-56c057eaa23bb71d0001ac91 .stream-item-content .activity-row .username /* tinyandkawaii */ { color:#FF9900 !important;  }
 #chat .chat-container ul.chat-main li.user-560b18f88b4f900300cc6c06 .stream-item-content .activity-row .username /* slyfox */ { color: #76EE00 !important;  }
 #chat .chat-container ul.chat-main li.user-570476b1fa0b0d5a00d2d1ec .stream-item-content .activity-row .username /* sister */ { color: #D43D1A !important;  }
