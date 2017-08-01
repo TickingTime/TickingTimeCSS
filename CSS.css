@@ -260,6 +260,21 @@
     left: 0;
     visibility: visible;
 }
+/* Kassy Chat Color and Stuff */
+#chat .chat-container ul.chat-main li.user-57a6196e478ab2510093596e .stream-item-content .activity-row .username /* Kassy */ { color:#F6907B !important;  }
+
+#chat .chat-container .chat-messages .chat-main li.user-57a6196e478ab2510093596e .activity-row .username .user-role {
+    position: relative;
+    visibility: hidden;   
+}
+#chat .chat-container .chat-messages .chat-main li.user-57a6196e478ab2510093596e .activity-row .username .user-role::before {
+    content: "Mateo";
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+
 /* Kajen chat color and stuff */
 #chat .chat-container ul.chat-main li.user-57a754a90d8c094700810329 .stream-item-content .activity-row .username /* kajen */ { color: #57873D  !important;  }
 
@@ -290,7 +305,7 @@
     color: #CD0000;
 }
  
-/* Mrlancaster Chat Color and Stuff */
+/* Riven Chat Color and Stuff */
 #chat .chat-container .chat-messages .chat-main li.user-5818d381f179286f00a5344f .activity-row .username .user-role {
     position: relative;
     visibility: hidden;   
@@ -314,6 +329,8 @@
  
 /* Room size fix */
 #main-room { max-width: initial; padding: 3.6rem 0 3.5rem 0; }
+border-top: 1px solid #that color
+
  
    
 /* Welcome message in white */
@@ -403,7 +420,7 @@ background: rgba(255, 255, 255, 0.27)
 #main_avatar_room #main-user-list-room #avatar-list li.creator .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.creator .username
 {
-    color: #FF4DFE;
+    color: #868e91;
 }
  
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
@@ -411,7 +428,7 @@ background: rgba(255, 255, 255, 0.27)
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .username
 {
-    color: #FF4DFE;
+    color: #868e91;
 }
  
 #chat .chat-container .chat-messages .chat-main li.manager .user-role,
@@ -470,12 +487,12 @@ background: rgba(255, 255, 255, 0.27)
  
 /* badges */
 .creator span.user-role-icon {
-    background-image: url(http://i.imgur.com/bmhKE7F.png);
+    background-image: url(https://vgy.me/0s24m9.png);
     display: inline-block !important;
 }
  
 .co-owner span.user-role-icon {
-    background-image: url(http://i.imgur.com/nYQpyNr.png);
+    background-image: url(https://vgy.me/cF1sI3.png);
     display: inline-block !important;
 }
  
