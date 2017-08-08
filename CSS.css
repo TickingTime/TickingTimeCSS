@@ -1,8 +1,8 @@
-@import url("https://github.netux.ml/css/chatright.css"); /* Chat completely to the right */
-@import url("https://github.netux.ml/css/voteicons.css"); /* NB3 Vote Icons */
-@import url("https://github.netux.ml/css/skynet.css"); /* Netox's bot prefs */
-@import url("https://github.netux.ml/css/animations.css"); /* NB3 animations */
-@import url("https://github.netux.ml/css/animations.css"); /* Pack of animations */
+@import url("https://github.netux.site/Dubtrack/css/chatright.css"); /* Chat completely to the right */
+@import url("https://github.netux.site/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
+@import url("https://github.netux.site/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
+@import url("https://github.netux.site/Dubtrack/css/animations.css"); /* NB3 animations */
+@import url("https://github.netux.site/Dubtrack/css/animations.css"); /* Pack of animations */
  
 /* Small video (without buttons fix) from https://github.netux.ml/css/videosmall.css */
 @media screen and (min-width: 72em) { /* If not "phone mode" */
