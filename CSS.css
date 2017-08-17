@@ -1,7 +1,6 @@
 @import url("https://github.netux.site/Dubtrack/css/chatright.css"); /* Chat completely to the right */
 @import url("https://github.netux.site/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
 @import url("https://github.netux.site/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
-@import url("https://github.netux.site/Dubtrack/css/animations.css"); /* NB3 animations */
 @import url("https://github.netux.site/Dubtrack/css/animations.css"); /* Pack of animations */
  
 /* Small video (without buttons fix) from https://github.netux.ml/css/videosmall.css */
@@ -381,26 +380,24 @@ border-top: 1px solid #that color
 #player-controller .right ul li .icon-heart::before { content: url('http://i.imgur.com/CtKu2gz.png'); }
 #player-controller .right ul li .dubup .icon-upvote::before { content: url('http://i.imgur.com/KWxxNGv.png'); }
 #player-controller .right ul li .dubdown .icon-downvote::before { content: url('http://i.imgur.com/bxJufat.png'); }
+/* Things painted in the blood of my enemies */
 
-/* Custom progress bar color */
-#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div{
-background: #ffffff;
-}
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
-    background: #ffffff
+    background: linear-gradient(to right, rgb(68,27,24), rgb(198,21,21) );
+}
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min {
+    background: rgb(170,17,17);
 }
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-handle {
-    background: #13e254;
+    background: rgb(170,17,17);
 }
-#volume-div .ui-slider-range-min {
-background: rgba(255, 255, 255, 0.27)
+#main_player .player_sharing .player-controller-container .volume-controller-container #volume-div {
+    background: rgb(37,23,23);
 }
-
-/* Green mail */
-
 #header-global .header-right-navigation .user-messages .message-counter {
-    background: rgb(19, 226, 84);
+    background: rgb(170,17,17);
 }
+
 
 /* hebgbs fixes */
 #player-controller .right ul li:nth-child(n+2):nth-child(n-5){ position: relative; top: -4px !Important; }
