@@ -384,9 +384,6 @@ border-top: 1px solid #that color
 #player-controller .right ul li .dubdown .icon-downvote::before { content: url('http://i.imgur.com/bxJufat.png'); }
 /* Things painted in the blood of my enemies */
 
-#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
-    background: linear-gradient(to right, rgb(68,27,24), rgb(198,21,21) );
-}
 #main_player .player_sharing .player-controller-container .volume-controller-container #volume-div .ui-slider-range-min {
     background: rgb(170,17,17);
 }
